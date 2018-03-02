@@ -8,3 +8,6 @@ Premicom adalah sebuah platform untuk menghimpun komik digital dari uploader unt
 
 ## Target Penyelesaian
 12 Maret 2018
+
+## Version
+1
