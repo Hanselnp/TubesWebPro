@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  z-index: 1;
-  position: relative;
+  background: blue;
 }
 
 header .container-fluid {
@@ -83,69 +76,3 @@ header .container-fluid .pull-left div,
 header .container-fluid .pull-right div {
   display: inline-block;
 }
-
-.slider {
-  margin-top: -10px;
-  z-index: -1;
-  background: url("../images/dummy.jpg");
-  padding: 10px 0 0 0;
-}
-
-
-
-/* Overlay Bootstrap Control */
-.carousel-control-next, .carousel-control-prev {
-  width: 5%;
-}
-
-/* Container Section */
-.container-head {
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-/* Custom */
-.nowrap {
-  white-space: nowrap;
-}
-
-.nobg {
-  background: transparent !important;
-}
-
-@media (min-width: 768px) {
-  .sm-absolute-vertical-center {
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-  }
-}
-
-/* Section Rilisan Komik */
-#releases {
-  background: #F44336;
-}
-
-#releases .releases-container {
-  background: #fff;
-  display: inline-block;
-  margin: 3px;
-  border-radius: 3px;
-}
-
-#releases .releases-container .releases-image {
-  margin: 0 auto;
-}
-
-#releases .releases-container .releases-image img {
-  width: 100%;
-}
-
-#releases .releases-container .releases-body button {
-  width: 100%;
-  border: 0;
-  padding: 2px 0;
-}
-
-#releases .releases-container .releases-body
