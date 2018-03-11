@@ -100,7 +100,6 @@ header .container-fluid .pull-right div {
 
 /* Container Section */
 .container-head {
-  color: white;
   font-size: 20px;
   font-weight: 500;
 }
@@ -114,6 +113,11 @@ header .container-fluid .pull-right div {
   background: transparent !important;
 }
 
+.row-nomx {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 @media (min-width: 768px) {
   .sm-absolute-vertical-center {
     position: absolute;
@@ -125,13 +129,14 @@ header .container-fluid .pull-right div {
 /* Section Rilisan Komik */
 #releases {
   background: #F44336;
+  color: #fff;
 }
 
 #releases .releases-container {
   background: #fff;
   display: inline-block;
   margin: 3px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #releases .releases-container .releases-image {
@@ -140,6 +145,11 @@ header .container-fluid .pull-right div {
 
 #releases .releases-container .releases-image img {
   width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+#releases .releases-container .releases-head-title {
+  color: #191919;
 }
 
 #releases .releases-container .releases-body button {
@@ -148,4 +158,33 @@ header .container-fluid .pull-right div {
   padding: 2px 0;
 }
 
-#releases .releases-container .releases-body
+#releases .releases-container .fa-arrow-circle-right {
+  font-size: 40px;
+}
+
+/* Section Popularitas Berdasarkan Genre */
+#popular {
+  color: #191919;
+}
+
+#popular .square {
+  display: inline-block;
+}
+
+#popular .square-begin {
+  background: blue;
+  vertical-align: top;
+}
+
+#popular .square-begin .square-title {
+  /* margin-top: 10px; */
+}
+
+#popular .square-begin .square-desc {
+  /* margin-top: 10px; */
+  word-wrap: break-word;
+}
+
+#popular .square img {
+  width: 100%;
+}
