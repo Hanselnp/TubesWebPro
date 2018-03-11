@@ -85,23 +85,6 @@
 									</div>
 								</div>
 						</div>
-<<<<<<< Updated upstream
-						<div class="releases-container col-12 col-md-2">
-							<div class="row">
-								<div class="releases-image">
-									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
-								</div>
-							</div>
-								<div class="releases-head mt-2 mb-2">
-									<div class="releases-head-title">
-										DKV 4
-									</div>
-								</div>
-=======
-						<div class="releases-head">
-
->>>>>>> Stashed changes
-						</div>
 						<div class="releases-container col-12 col-md-2">
 							<div class="row">
 								<div class="releases-image">
@@ -138,16 +121,66 @@
 									</div>
 								</div>
 						</div>
-						<div class="releases-container col-12 col-md-2 sm-absolute-vertical-center nobg">
+						<div class="releases-container col-12 col-md-2 sm-absolute-vertical-center nobg text-center">
+							<i class="fas fa-arrow-circle-right"></i> <br />
 							See more
 						</div>
 				</div>
 			</div>
 		</div>
-
-
-
-
+		<div class="container-fluid" id="popular">
+			<div class="col-12 col-md-10 mx-auto pt-3 pb-3">
+				<div class="container-head">
+					Komik Terpopuler Berdasarkan Genre
+				</div>
+				<div class="container-content mt-1">
+					<div class="col-12 mb-2 text-center">
+						<div class="col-12 col-md-2 square square-begin">
+							<div class="square-title">
+								This is title
+							</div>
+							<div class="square-desc">
+								This is titlekajdakdjaskdjkasjdkajdkasjdksa jdka sjdkas dkas d k a s j d k a jskdjaskdj
+							</div>
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+					</div>
+					<div class="col-12 mb-2 text-center">
+						<div class="col-12 col-md-2 square square-begin">
+							<div class="square-title">
+								This is title
+							</div>
+							<div class="square-desc">
+								This is titlekajdakdjaskdjkasjdkajdkasjdksa jdka sjdkas dkas d k a s j d k a jskdjaskdj
+							</div>
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+						<div class="col-12 col-md-2 square">
+							<img src="images/thumbnail.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
   <!-- Javascript & Jquery Init -->
 	<script src="js_src/src.js">
 	</script>
