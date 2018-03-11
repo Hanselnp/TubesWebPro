@@ -34,7 +34,7 @@
               <input placeholder="Cari komik"><div class="search-button"><i class="fas fa-search"></i></div>
             </div>
             <div class="login">
-              <a href="#">Login</a>
+              <a onclick="" href="#">Login</a>
             </div>
           </div>
         </div>
@@ -73,18 +73,6 @@
 					Rilisan Komik
 				</div>
 				<div class="container-content mt-1">
-						<div class="releases-container col-12 col-md-2">
-							<div class="row">
-								<div class="releases-image">
-									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
-								</div>
-							</div>
-								<div class="releases-head mt-2 mb-2">
-									<div class="releases-head-title">
-										DKV 4
-									</div>
-								</div>
-						</div>
 						<div class="releases-container col-12 col-md-2">
 							<div class="row">
 								<div class="releases-image">
@@ -194,6 +182,8 @@
 			</div>
 		</div>
   <!-- Javascript & Jquery Init -->
+	<script src="js_src/src.js">
+	</script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
