@@ -121,6 +121,18 @@
 									</div>
 								</div>
 						</div>
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
+						</div>
 						<div class="releases-container col-12 col-md-2 sm-absolute-vertical-center nobg text-center">
 							<i class="fas fa-arrow-circle-right"></i> <br />
 							See more
