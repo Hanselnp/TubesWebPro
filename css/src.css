@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  z-index: 1;
-  position: relative;
+  background: rgba(0, 0, 100, 0.5);
 }
 
 header .container-fluid {
@@ -84,68 +77,63 @@ header .container-fluid .pull-right div {
   display: inline-block;
 }
 
-.slider {
-  margin-top: -10px;
-  z-index: -1;
-  background: url("../images/dummy.jpg");
-  padding: 10px 0 0 0;
+body .outer{
+  background: white;
+  margin-top: 10px;
+  /* padding-bottom: ; */
 }
 
-
-
-/* Overlay Bootstrap Control */
-.carousel-control-next, .carousel-control-prev {
-  width: 5%;
+body .result {
+  background: rgba(0, 0, 100, 0.5);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
-/* Container Section */
-.container-head {
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
+body .result img{
+  width: auto;
+  height: 200px;
+  margin-left: 10px;
 }
 
-/* Custom */
-.nowrap {
-  white-space: nowrap;
+body .result .genre a {
+  background: rgba(100, 100, 100, 0.5);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
 }
 
-.nobg {
-  background: transparent !important;
+body .result .opsi a {
+  background: rgba(100, 0, 100, 0.5);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
 }
 
-@media (min-width: 768px) {
-  .sm-absolute-vertical-center {
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-  }
+body .result a:hover {
+  background: black;
 }
 
-/* Section Rilisan Komik */
-#releases {
-  background: #F44336;
+body .title {
+  margin-left: 10px;
+  height: auto;
+  font-family: fantasy;
 }
 
-#releases .releases-container {
-  background: #fff;
-  display: inline-block;
-  margin: 3px;
-  border-radius: 3px;
+body .title a{
+  text-decoration: none;
 }
 
-#releases .releases-container .releases-image {
-  margin: 0 auto;
+body .box{
+  background: white;
+  width: 300px;
+  height: 200px;
 }
 
-#releases .releases-container .releases-image img {
-  width: 100%;
+.result .r8m8 img{
+  height: 10px;
 }
-
-#releases .releases-container .releases-body button {
-  width: 100%;
-  border: 0;
-  padding: 2px 0;
-}
-
-#releases .releases-container .releases-body
