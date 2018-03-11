@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
 body {
   background: blue;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  z-index: 1;
+  position: relative;
 }
 
 header .container-fluid {
@@ -75,4 +83,30 @@ header .container-fluid .search-button {
 header .container-fluid .pull-left div,
 header .container-fluid .pull-right div {
   display: inline-block;
+}
+
+.slider {
+  margin-top: -10px;
+  z-index: -1;
+  background: url("../images/dummy.jpg");
+  padding: 10px 0 0 0;
+}
+
+
+
+/* Overlay Bootstrap Control */
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+/* Container Section */
+.container-head {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Section Rilisan Komik */
+#releases {
+  
 }

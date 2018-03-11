@@ -40,6 +40,53 @@
         </div>
       </div>
     </header>
+		<div class="slider">
+			<div class="container-fluid">
+				<div class="col-12 col-md-10 mx-auto">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="images/dummy.jpg" alt="First slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/dummy.jpg" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/dummy.jpg" alt="Third slide">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" id="releases">
+			<div class="col-12 col-md-10 mx-auto mt-3">
+				<div class="container-head">
+					Rilisan Komik
+				</div>
+				<div class="container-content mt-1 text-center">
+					<div class="releases-container">
+						<div class="releases-image">
+
+						</div>
+						<div class="releases-head">
+							
+						</div>
+						<div class="releases-body">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
   <!-- Javascript & Jquery Init -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
