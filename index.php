@@ -46,13 +46,13 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img class="d-block w-100" src="images/dummy.jpg" alt="First slide">
+					      <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="First slide">
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100" src="images/dummy.jpg" alt="Second slide">
+					      <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="Second slide">
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100" src="images/dummy.jpg" alt="Third slide">
+					      <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="Third slide">
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -68,22 +68,74 @@
 			</div>
 		</div>
 		<div class="container-fluid" id="releases">
-			<div class="col-12 col-md-10 mx-auto mt-3">
+			<div class="col-12 col-md-10 mx-auto pt-3 pb-3">
 				<div class="container-head">
 					Rilisan Komik
 				</div>
-				<div class="container-content mt-1 text-center">
-					<div class="releases-container">
-						<div class="releases-image">
-
+				<div class="container-content mt-1">
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
 						</div>
-						<div class="releases-head">
-							
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
 						</div>
-						<div class="releases-body">
-
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
 						</div>
-					</div>
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
+						</div>
+						<div class="releases-container col-12 col-md-2">
+							<div class="row">
+								<div class="releases-image">
+									<img src="https://orig00.deviantart.net/be1e/f/2010/267/2/8/cover_komik_dkv4_by_fazameonk-d2zdi9b.jpg"/>
+								</div>
+							</div>
+								<div class="releases-head mt-2 mb-2">
+									<div class="releases-head-title">
+										DKV 4
+									</div>
+								</div>
+						</div>
+						<div class="releases-container col-12 col-md-2 sm-absolute-vertical-center nobg">
+							See more
+						</div>
 				</div>
 			</div>
 		</div>
