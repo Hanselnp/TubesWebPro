@@ -2,6 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background: #eceff1;
 }
 
 header {
@@ -187,4 +188,77 @@ header .container-fluid .pull-right div {
 
 #popular .square img {
   width: 100%;
+}
+
+/* Comic Chapter Preview */
+.comic-title-container {
+  padding: 20px 0 100px 0;
+  background-size: cover;
+  color: white;
+}
+
+.comic-title-container .comic-title {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.comic-title-container .comic-creator {
+  font-size: 15px;
+}
+
+.comic-title-container .comic-genre {
+  margin-top: 10px;
+}
+
+.comic-title-container .comic-genre a {
+  background: rgba(100, 100, 100, 0.5);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.comic-episodes-container {
+  background: white;
+  margin-top: -60px;
+  padding: 10px 20px;
+}
+
+.comic-episodes-container .comic-episodes-thumb img {
+  width: 100%;
+}
+
+.comic-episodes-container .comic-episodes:not(:last-child) {
+  border-bottom: 1px solid grey;
+  padding: 5px 0;
+}
+
+.comic-episodes-container .comic-episodes-title {
+  padding: 0 !important;
+}
+
+.comic-episodes-container .comic-episodes-timestamp {
+  font-size: 13px;
+  color: grey;
+}
+
+.comic-episodes-container .comic-epsiodes-title,
+.comic-episodes-container .comic-episodes-timestamp {
+  position: relative;
+}
+
+.comic-episodes-container .comic-episodes-title p,
+.comic-episodes-container .comic-episodes-timestamp .row {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.comics-recommendation {
+  margin-top: 20px;
+}
+
+.comics-recommendation-body {
+  background: white;
 }

@@ -1,102 +1,21 @@
-body {
-  background: rgba(0, 0, 100, 0.5);
-}
-
-header .container-fluid {
-  background: white;
-  border-radius: 0 0 10px 10px;
-}
-
-header .header-container {
-  height: 80px;
-  margin: 0 auto;
-  position: relative;
-  font-size: 14px;
-}
-
-header .container-fluid .pull-left {
-  float: left;
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-}
-
-header .container-fluid .logo {
-  margin-right: 10px;
-}
-
-header .container-fluid .logo img {
-  height: 60px;
-  width: 100px;
-}
-
-header .container-fluid .pull-right {
-  float: right;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-}
-
-header .container-fluid .search input {
-  padding: 5px 5px 5px 10px;
-  border: 1px solid #dfdfdf;
-  border-right: 0;
-  border-radius: 25px 0 0 25px;
-  margin: 0;
-  width: 150px;
-}
-
-header .container-fluid .search input:focus {
-  outline: none !important;
-}
-
-header .container-fluid .login a {
-  background: red;
-  padding: 10px 20px;
-  border-radius: 25px;
-  color: #fff;
-  text-decoration: none;
-}
-
-header .container-fluid .login a:hover {
-  background: blue;
-}
-
-header .container-fluid .search-button {
-  border: 1px solid #dfdfdf;
-  border-left: 0;
-  padding: 5px 10px 5px 0;
-  margin: 0;
-  border-radius: 0 25px 25px 0;
-}
-
-header .container-fluid .pull-left div,
-header .container-fluid .pull-right div {
-  display: inline-block;
-}
-
-body .outer{
+.outer{
   background: white;
   margin-top: 10px;
   /* padding-bottom: ; */
 }
 
-body .result {
-  background: rgba(0, 0, 100, 0.5);
+.result-bg {
   border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+  background: rgba(0, 0, 100, 0.5);
 }
 
-body .result img{
+.result img{
   width: auto;
   height: 200px;
   margin-left: 10px;
 }
 
-body .result .genre a {
+.result .genre a {
   background: rgba(100, 100, 100, 0.5);
   padding: 3px 5px;
   border-radius: 5px;
@@ -105,7 +24,7 @@ body .result .genre a {
   margin: 10px 0;
 }
 
-body .result .opsi a {
+.result .opsi a {
   background: rgba(100, 0, 100, 0.5);
   padding: 3px 5px;
   border-radius: 5px;
@@ -114,21 +33,20 @@ body .result .opsi a {
   margin: 10px 0;
 }
 
-body .result a:hover {
+.result a:hover {
   background: black;
 }
 
-body .title {
-  margin-left: 10px;
+.title {
   height: auto;
   font-family: fantasy;
 }
 
-body .title a{
+.title a{
   text-decoration: none;
 }
 
-body .box{
+.box{
   background: white;
   width: 300px;
   height: 200px;
@@ -136,4 +54,9 @@ body .box{
 
 .result .r8m8 img{
   height: 10px;
+}
+
+.container {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
