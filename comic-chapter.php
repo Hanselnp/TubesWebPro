@@ -71,7 +71,7 @@
                 <img src="images/thumbnail.jpg"/>
               </div>
               <div class="col-6 comic-episodes-title">
-                <p>This is Title</p>
+                <p>#100 This is Title</p>
               </div>
               <div class="col-4 comic-episodes-timestamp">
                 <div class="row no-gutters">
@@ -91,7 +91,7 @@
                 <img src="images/thumbnail.jpg"/>
               </div>
               <div class="col-6 comic-episodes-title">
-                <p>This is Title</p>
+                <p>#99 This is Title</p>
               </div>
               <div class="col-4 comic-episodes-timestamp">
                 <div class="row no-gutters">
@@ -111,7 +111,7 @@
                 <img src="images/thumbnail.jpg"/>
               </div>
               <div class="col-6 comic-episodes-title">
-                <p>This is Title</p>
+                <p>#98 This is Title</p>
               </div>
               <div class="col-4 comic-episodes-timestamp">
                 <div class="row no-gutters">
@@ -126,8 +126,16 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
-            adasdasd
+        <div class="col-12 col-md-4 comic-sidebar">
+          <div class="rating">
+						<i class="fas fa-star"></i> 9.85
+					</div>
+					<div class="short-desc">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+					</div>
+					<div class="first-ep">
+						<button>Read First Episode <span><i class="fas fa-angle-right"></i></span></button>
+					</div>
         </div>
       </div>
     </div>
@@ -136,17 +144,47 @@
       <div class="row comics-recommendation-head">
         Mungkin anda juga berminat membaca
       </div>
-      <div class="row mt-2 mb-5">
+      <div class="row mt-1 mb-5">
         <div class="col-12 comics-recommendation-body">
           <div class="row">
             <div class="col-4">
-              aaa
+							<div class="row">
+								<div class="col-4">
+									<img src="images/thumbnail.jpg"/>
+								</div>
+								<div class="col-8 pl-0">
+									<div class="absolute-vertical-center comics-recommendation-title">
+										This is another title <br />
+										<small>This is another title</small>
+									</div>
+								</div>
+							</div>
             </div>
             <div class="col-4">
-              bbb
+							<div class="row">
+								<div class="col-4">
+									<img src="images/thumbnail.jpg"/>
+								</div>
+								<div class="col-8 pl-0">
+									<div class="absolute-vertical-center comics-recommendation-title">
+										This is another title <br />
+										<small>This is another title</small>
+									</div>
+								</div>
+							</div>
             </div>
             <div class="col-4">
-              ccc
+							<div class="row">
+								<div class="col-4">
+									<img src="images/thumbnail.jpg"/>
+								</div>
+								<div class="col-8 pl-0">
+									<div class="absolute-vertical-center comics-recommendation-title">
+										This is another title <br />
+										<small>This is another title</small>
+									</div>
+								</div>
+							</div>
             </div>
           </div>
         </div>

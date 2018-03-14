@@ -127,6 +127,12 @@ header .container-fluid .pull-right div {
   }
 }
 
+.absolute-vertical-center {
+  position: absolute;
+  top: 50%;
+  transform:translateY(-50%);
+}
+
 /* Section Rilisan Komik */
 #releases {
   background: #F44336;
@@ -230,7 +236,10 @@ header .container-fluid .pull-right div {
 }
 
 .comic-episodes-container .comic-episodes:not(:last-child) {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #eceff1;
+}
+
+.comic-episodes-container .comic-episodes {
   padding: 5px 0;
 }
 
@@ -255,10 +264,57 @@ header .container-fluid .pull-right div {
   transform: translateY(-50%);
 }
 
+.comic-episodes-container .comic-episodes-title p {
+  font-size: 17px;
+}
+
 .comics-recommendation {
   margin-top: 20px;
 }
 
 .comics-recommendation-body {
   background: white;
+}
+
+.comics-recommendation-body img {
+  width: 100%;
+}
+
+.comic-sidebar .rating {
+  font-size: 20px;
+}
+
+.comic-sidebar .rating .fa-star {
+  color: #00c853;
+}
+
+.comic-sidebar .short-desc {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.comic-sidebar .first-ep button{
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 40px;
+  background: #ef5350;
+  color: white;
+  position: relative;
+}
+
+.comic-sidebar .first-ep button:hover {
+  cursor: pointer;
+}
+
+.comic-sidebar .first-ep button span{
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.comics-recommendation .comics-recommendation-title {
+  font-size: 15px;
 }
