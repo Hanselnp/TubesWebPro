@@ -174,26 +174,106 @@ header .container-fluid .pull-right div {
   color: #191919;
 }
 
-#popular .square {
+#popular .square:not(:first-child):not(:last-child) {
+  display: inline-block;
+}
+
+#popular .square:first-child {
+  display: inline-block;
+}
+
+#popular .square:last-child {
   display: inline-block;
 }
 
 #popular .square-begin {
-  background: blue;
+  background: #42a5f5;
   vertical-align: top;
 }
 
 #popular .square-begin .square-title {
-  /* margin-top: 10px; */
+  margin: 10px;
+  font-size: 20px;
 }
 
 #popular .square-begin .square-desc {
-  /* margin-top: 10px; */
+  margin: 10px;
   word-wrap: break-word;
+  font-size: 14px;
+}
+
+#popular .square {
+  position: relative;
+  cursor: pointer;
+  background-color: #42a5f5;
+  margin: 0;
+}
+
+#popular .hideable {
+  display: none;
+  transition: 0.5s;
+}
+
+#popular .square text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+}
+
+#popular .square text p {
+  margin-bottom: 0;
 }
 
 #popular .square img {
   width: 100%;
+}
+
+@media (min-width: 992px) {
+  #popular .extra {
+    display: inline-block !important;
+  }
+
+  #popular .square:not(:first-child):not(:last-child) {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+
+  #popular .square:first-child {
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+  }
+
+  #popular .square:last-child {
+    display: inline-block;
+    margin: 10px 0 10px 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  #popular .extra {
+    display: none !important;
+  }
+
+  #popular .square {
+    /* display: inline-block; */
+    margin-top: 10px;
+    height: 521px;
+  }
+
+  #popular .second-begin {
+    margin-top: 50px;
+  }
+}
+
+/* Attributies Releases */
+#attrib {
+  background: #cfd8dc;
+  padding: 10px;
+}
+
+#attrib .col {
+  text-align: center;
 }
 
 /* Comic Chapter Preview */

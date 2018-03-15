@@ -1,0 +1,236 @@
+[
+	{
+		"FullTitle": "Fuuka",
+		"Synopsis" : "",
+		"Genre" : {
+			"Shonen" : true,
+			"Music" : true,
+			"SliceOfLife" : false,
+			"Thriller" : false
+		},
+		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
+		"Cover": "images/fuuka.jpg",
+		"ReleaseYear": "2011",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "DKV 4",
+		"Synopsis" : "",
+		"Genre" : {
+			"Shonen" : true,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : false
+		},
+		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
+		"Cover": "images/dkv4.jpg",
+		"ReleaseYear": "2016",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Attack on Titan Vol.1",
+		"Synopsis" : "",
+		"Genre" : {
+			"Shonen" : true,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : false
+		},
+		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
+		"Cover": "images/attackontitan.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Violet Evergarden",
+		"Synopsis" : "",
+		"Genre" : {
+			"Shonen" : true,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : false
+		},
+		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
+		"Cover": "images/VioletEvergarden.png",
+		"ReleaseYear": "2015",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Si Juki",
+		"Synopsis" : "",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : false
+		},
+		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Lucunya Hidup Ini",
+		"Synopsis" : "Tentang hidup yang dilihat dari sudut pandang berbeda hingga kita bisa menyeringai melihatnya.",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : true,
+			"Thriller" : false
+		},
+		"Thumbnail" : "images/LucunyaHidupIni.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Serba Salah",
+		"Synopsis" : "Galau selalu disalahkan? Ngapain galau, ketawain aja!",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : true,
+			"Thriller" : false
+		},
+		"Thumbnail" : "images/SerbaSalah.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "My Kitty and Old Dog",
+		"Synopsis" : "Hewan-hewan lucu akan membuat hatimu terenyuh. Kisah anjing pudel tua dengan penglihatan kabur dan anak kucing lucu yang selalu menanti perhatian dan rasa sayang dari sang majikan. Hewan-hewan lucu ini akan membuat hatimu terenyuh serta mungkin menitikkan air mata.",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : true,
+			"Thriller" : false
+		},
+		"Thumbnail" : "images/MyKittyAndOldDog.jpeg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Sekar X Popular",
+		"Synopsis" : "Sekar adalah seorang gadis SMA biasa yang menyukai kakak kelasnya. Untuk menarik perhatian sang kakak kelas, Sekar harus menjadi populer! Mampukah Sekar menjadi populer dan mendapatkan pujaan hatinya?",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : true,
+			"Thriller" : false
+		},
+		"Thumbnail" : "images/SekarXPopular.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Stalker",
+		"Synopsis" : "Stalker yang telah mengincarmu selama 6 tahun akan menceritakan sesuatu...",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : true
+		},
+		"Thumbnail" : "images/Stalker.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Riot_404",
+		"Synopsis" : "Teknologi dan digital telah berkembang pesat. Dunia yang tadinya di bawah kaki ini, kemudian menyusut ke genggaman tangan. Tidak ada tempat untuk kalian kabur..!",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : true
+		},
+		"Thumbnail" : "images/Riot404.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Dead Days",
+		"Synopsis" : "Dari mana asal virus zombie yang menyebar? Bisakah mereka yang tersisa bertahan hidup di tengah kehancuran umat manusia?",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : true
+		},
+		"Thumbnail" : "images/DeadDays.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	},
+	{
+		"FullTitle": "Bastard",
+		"Synopsis" : "Pembunuhan berantai dengan korban para wanita tak berdosa sedang terjadi! Meski kelihatan lemah dan sakit-sakitan, hanya Jin lah yang mengetahui siapa pembunuh misterius itu. Monster macam apa yang begitu keji pada korbannya?",
+		"Genre" : {
+			"Shonen" : false,
+			"Music" : false,
+			"SliceOfLife" : false,
+			"Thriller" : true
+		},
+		"Thumbnail" : "images/Bastard.jpg",
+		"Cover": "images/sijuki.jpg",
+		"ReleaseYear": "2012",
+		"Pages": [{
+			"1": "../comic/e1.jpg",
+			"2": "../comic/e2.jpg",
+			"3": "../comic/e3.jpg"
+		}]
+	}
+]
