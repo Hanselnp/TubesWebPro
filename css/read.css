@@ -30,6 +30,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  padding: 10px;
 }
 
 .right-top {
@@ -53,29 +54,6 @@
   width: 100%;
 }
 
-#infor {
-  width: 45%;
-}
-
-#chaplist{
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  text-align: left;
-  /* display: inline-block;
-  transform :translateY(-50%);
-  position: absolute;
-  top: 50%;
-  margin-left: -480px; */
-}
-
-
-/*
-#chaplist select,
-#chaplist div {
-  padding: 6px;
-} */
-
 #tombolain{
   float:right;
   display: inline-block;
@@ -90,6 +68,10 @@
   padding: 10px;
 }
 
+.delete:hover {
+  cursor: pointer;
+  color: red;
+}
 
 #subsc{
   background-color: #C80015;
@@ -120,10 +102,6 @@
   margin-left: -5px;
 }
 
-img{
-  text-align: center;
-}
-
 .space{
   height: 20px;
 }
@@ -132,31 +110,4 @@ img{
   background-color: #D5D2DF;
   padding: 10px 0;
   border-radius: 0 0 15px 15px;
-}
-
-.line{
-  background-color: #ADA8B2;
-  width: 850px;
-  height: 3px;
-  margin-top: 3px;
-  margin-left: 50px;
-}
-
-.commentcounter{
-  margin-top: 10px;
-  margin-left: 55px;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.login{
-  margin-left: 690px;
-  display: inline-block;
-}
-
-.share{
-  font-size: 13px;
-  margin-left: 55px;
-  padding-top: 5px;
 }
