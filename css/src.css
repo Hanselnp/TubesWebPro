@@ -1,12 +1,15 @@
 .outer{
   background: white;
   margin-top: 10px;
-  /* padding-bottom: ; */
+  padding: 20px;
+}
+
+hr {
+  margin: 10px 0;
 }
 
 .result-bg {
   border-radius: 10px;
-  background: rgba(0, 0, 100, 0.5);
 }
 
 .result img{

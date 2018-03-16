@@ -1,7 +1,7 @@
 [
 	{
 		"FullTitle": "Fuuka",
-		"Synopsis" : "",
+		"Synopsis" : "Fuuka is a sequel to the 2004 manga Suzuka. The story follows Yuu Haruna, a loner and an avid Twitter user that made a promise with his childhood friend Koyuki Hinashi of starting a band. One night, on his way to buy dinner, he stops to take a photo to upload to Twitter...",
 		"Genre" : {
 			"Shonen" : true,
 			"Music" : true,
@@ -19,7 +19,7 @@
 	},
 	{
 		"FullTitle": "DKV 4",
-		"Synopsis" : "",
+		"Synopsis" : "Komik ini menceritakan si Juki dengan 3 orang sahabatnya yang baru saja lulus SMU. Mereka memutuskan untuk mengambil jurusan kuliah yang berbeda-beda.Bagaimana cerita 4 sekawan ini dalam menjalani perkuliahan mereka? ...",
 		"Genre" : {
 			"Shonen" : true,
 			"Music" : false,
@@ -37,13 +37,14 @@
 	},
 	{
 		"FullTitle": "Attack on Titan Vol.1",
-		"Synopsis" : "",
+		"Synopsis" : "In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the...",
 		"Genre" : {
 			"Shonen" : true,
 			"Music" : false,
 			"SliceOfLife" : false,
 			"Thriller" : false
 		},
+		"Link" : "read.php",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "images/attackontitan.jpg",
 		"ReleaseYear": "2012",

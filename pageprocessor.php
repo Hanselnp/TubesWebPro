@@ -1,5 +1,9 @@
 <?php
-  if (isset($_GET['content']) == "dashboard") {
+  if ($_GET['content'] == "dashboard") {
     include("dashboard.php");
+  } else if ($_GET['content'] == "search") {
+    include("search.php");
+  } else if ($_GET['content'] == "read") {
+    include("read.php");
   }
 ?>

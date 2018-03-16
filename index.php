@@ -6,15 +6,17 @@
 	<title>Premicom</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+	<link href="css/src.css" rel="stylesheet">
+	<link href="css/read.css" rel="stylesheet">
 </head>
 <body>
     <header>
       <div class="container-fluid">
         <div class="col-xs-9 header-container">
           <div class="pull-left">
-            <div class="logo">
+            <!-- <div class="logo">
               <img src="#">
-            </div>
+            </div> -->
             <div class="menu">
               <ul class="nav">
                 <li class="nav-item">
@@ -31,7 +33,9 @@
           </div>
           <div class="pull-right">
             <div class="search">
-              <input placeholder="Cari komik"><div class="search-button"><i class="fas fa-search"></i></div>
+							<form id="searches" method="POST">
+	              <input placeholder="Cari komik"><button class="search-button" type="submit"><i class="fas fa-search"></i></button>
+							</form>
             </div>
             <div class="login">
               <a onclick="" href="#">Login</a>
@@ -50,14 +54,53 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js">
 	</script>
 	<script>
-		function changeable(pageName) {
+		$("#searches").on("submit", function(e) {
+			e.preventDefault();
+			changeable("search", $("#searches input").val());
+		});
+
+		function changeable(pageName, searchThis) {
 			$.ajax({
 				type: "GET",
-				url: "pageprocessor.php",
-				data: {content: pageName},
-				dataType: "html",
+				url: "pageprocessor.php?content="+pageName,
 				success: function(response) {
 					$("#changeable").html(response);
+					if (searchThis != null || searchThis != undefined) {
+						$.getJSON("js/json/comics.json", function (val) {
+							$.each(val, function(index, data) {
+								if (data.FullTitle.toUpperCase() == searchThis.toUpperCase()) {
+									$(".result").append(`
+										<div class="row mt-3 result-bg">
+											<div class="col-12 col-md-2">
+												<div class="title">
+													<img src="`+data.Cover+`">
+												</div>
+											</div>
+											<div class="col-12 col-md-9 container box">
+												<div class="row no-gutters">
+													<div class="title col-12">
+														<a href="#">
+														<h3>`+data.FullTitle+`</h3></a>
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="container col-12">
+														`+data.Synopsis+`
+													</div>
+												</div>
+												<div class="row">
+													<div class="genre col-12">
+														<div class="r8m8">Rating : <i class="fas fa-star"></i> 9.83</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									`);
+								}
+							});
+						});
+					}
 				}
 			});
 		}
@@ -75,6 +118,17 @@
 				$(this).find(".hideable").hide();
 			});
 		});
+
+		function read(name, e) {
+			e.preventDefault();
+			$.ajax({
+				type: "GET",
+				url: "pageprocessor.php?content=read",
+				success: function(response) {
+					$("#changeable").html(response);
+				}
+			});
+		}
 
 		changeable("dashboard");
 	</script>
