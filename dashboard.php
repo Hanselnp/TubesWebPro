@@ -84,7 +84,7 @@
       var i = 0;
       var j = 0;
       $.each(data, function (index, value) {
-        if (value.Genre.SliceOfLife == true && i < 4) {
+        if (value.Genre.SliceOfLife != false && i < 4) {
           i++;
           var extra;
           if (i == 4) {
@@ -112,7 +112,7 @@
           `);
         }
 
-        if (value.Genre.Thriller == true && j < 4) {
+        if (value.Genre.Thriller != false && j < 4) {
           j++;
           var extra;
           if (j == 4) {
@@ -167,7 +167,7 @@
               </div>
                 <div class="releases-head mt-2 mb-2">
                   <div class="releases-head-title">
-                    `+value.FullTitle+`
+                    <a href="#" onclick="read(`+value.Link+`, event)">`+value.FullTitle+`</a>
                   </div>
                 </div>
             </div>
