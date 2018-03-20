@@ -5,5 +5,7 @@
     include("search.php");
   } else if ($_GET['content'] == "read") {
     include("read.php");
+  } else if ($_GET['content'] == "comic-chapter") {
+    include("comic-chapter.php");
   }
 ?>
