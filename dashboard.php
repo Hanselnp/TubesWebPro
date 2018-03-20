@@ -167,7 +167,7 @@
               </div>
                 <div class="releases-head mt-2 mb-2">
                   <div class="releases-head-title">
-                    <a href="#" onclick="read(`+value.Link+`, event)">`+value.FullTitle+`</a>
+                    <a href="#" onclick="read('`+value.Link+`', event)">`+value.FullTitle+`</a>
                   </div>
                 </div>
             </div>
