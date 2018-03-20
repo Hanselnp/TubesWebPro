@@ -84,7 +84,7 @@
       var i = 0;
       var j = 0;
       $.each(data, function (index, value) {
-        if (value.Genre.SliceOfLife != false && i < 4) {
+        if ($.inArray("SliceOfLife", value.Genre) != -1 && i < 4) {
           i++;
           var extra;
           if (i == 4) {
@@ -112,7 +112,7 @@
           `);
         }
 
-        if (value.Genre.Thriller != false && j < 4) {
+        if ($.inArray("Thriller", value.Genre) != -1 && j < 4) {
           j++;
           var extra;
           if (j == 4) {
