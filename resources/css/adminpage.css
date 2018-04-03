@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #eceff1;
+}
+
+header {
+  z-index: 1;
+  position: relative;
+}
+
+header .container-fluid {
+  background: white;
+  border-radius: 0 0 10px 10px;
+}
+
+header .header-container {
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 14px;
+}
+
+header .container-fluid .pull-left {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+header .container-fluid .logo {
+  margin-right: 10px;
+}
+
+header .container-fluid .logo img {
+  height: 60px;
+  width: 100px;
+}
+
+header .container-fluid .pull-right {
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+header .container-fluid .search input {
+  padding: 5px 5px 5px 10px;
+  border: 1px solid #dfdfdf;
+  border-right: 0;
+  border-radius: 25px 0 0 25px;
+  margin: 0;
+  width: 150px;
+}
+
+header .container-fluid .search input:focus {
+  outline: none !important;
+}
+
+header .container-fluid .login a {
+  background: red;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header .container-fluid .login a:hover {
+  background: blue;
+}
+
+header .container-fluid .search-button {
+  border: 1px solid #dfdfdf;
+  border-left: 0;
+  padding: 5px 10px 5px 0;
+  margin: 0;
+  border-radius: 0 25px 25px 0;
+  background: #fff;
+}
+
+header .container-fluid .pull-left div,
+header .container-fluid .pull-right div {
+  display: inline-block;
+}
+
+.wrapper{
+  display: flex;
+}
+
+#sidebar{
+  min-width: 250px;
+  max-width: 250px;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #f44336;
+  color: #fff;
+  transition: all 0.3s;
+  padding-left: 0px;
+}
+
+.sidebar-header{
+  text-align: center;
+}
+
+.sidebar-header img{ 
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+.remove-dot {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.remove-dot li{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container{
+
+}
+
+.information-column{
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.icon-information{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+
+}
+
+.like{
+  background-color: red;
+}
+
+.inbox{
+  background-color: blue;
+}
+
+.favourites{
+  background-color: green;
+}
