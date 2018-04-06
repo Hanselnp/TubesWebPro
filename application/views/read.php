@@ -1,3 +1,6 @@
+<?php include('header.php'); ?>
+<body>
+<?php include('navbar.php'); ?>
 <div class="container">
 	<div class="row">
 		<div class="col-12 reader-background">
@@ -130,3 +133,6 @@
 		});
 	}
 </script>
+<?php include('javascript-loader.php'); ?>
+</body>
+<?php include('footer.php'); ?>

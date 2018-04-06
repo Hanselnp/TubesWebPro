@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Premicom</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="resources/css/main.css" rel="stylesheet">
-  <link href="resources/css/src.css" rel="stylesheet">
-</head>
+<?php include('header.php'); ?>
 <body>
-    <div class="comic-title-container" style="background-image: url('resources/images/dummy.jpg')">
+	<?php include('navbar.php'); ?>
+    <div class="comic-title-container">
       <div class="col-12">
         <div class="row">
-          <div class="col-8 text-center mx-auto">
+          <div class="col-8 text-center mx-auto" style="background: rgba(0, 0, 0, 0.5); padding: 10px;">
             <div class="comic-title">
               This is the Title
             </div>
@@ -32,67 +24,7 @@
     </div>
 		<div class="container comic-episodes-container">
       <div class="row">
-        <div class="col-12 col-md-8">
-          <div class="comic-episodes">
-            <div class="row">
-              <div class="col-2 comic-episodes-thumb">
-                <img src="resources/images/thumbnail.jpg"/>
-              </div>
-              <div class="col-6 comic-episodes-title">
-                <p>#100 This is Title</p>
-              </div>
-              <div class="col-4 comic-episodes-timestamp">
-                <div class="row no-gutters">
-                  <div class="col-9">
-                    <p>Mar 18, 2018</p>
-                  </div>
-                  <div class="col-3">
-                    #10
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="comic-episodes">
-            <div class="row">
-              <div class="col-2 comic-episodes-thumb">
-                <img src="resources/images/thumbnail.jpg"/>
-              </div>
-              <div class="col-6 comic-episodes-title">
-                <p>#99 This is Title</p>
-              </div>
-              <div class="col-4 comic-episodes-timestamp">
-                <div class="row no-gutters">
-                  <div class="col-9">
-                    <p>Mar 18, 2018</p>
-                  </div>
-                  <div class="col-3">
-                    #9
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="comic-episodes">
-            <div class="row">
-              <div class="col-2 comic-episodes-thumb">
-                <img src="resources/images/thumbnail.jpg"/>
-              </div>
-              <div class="col-6 comic-episodes-title">
-                <p>#98 This is Title</p>
-              </div>
-              <div class="col-4 comic-episodes-timestamp">
-                <div class="row no-gutters">
-                  <div class="col-9">
-                    <p>Mar 18, 2018</p>
-                  </div>
-                  <div class="col-3">
-                    #8
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-md-8" id="episodes">
         </div>
         <div class="col-12 col-md-4 comic-sidebar">
           <div class="rating">
@@ -159,20 +91,46 @@
       </div>
     </div>
   <!-- Javascript & Jquery Init -->
+	<?php include ('javascript-loader.php'); ?>
 	<script type="text/javascript">
-	$.getJSON('resources/js/json/comics.json', function(data) {
-		$.each(data, function(index, value) {
-			if (value.FullTitle == "<?php echo $_GET['title']; ?>") {
-				var genre = "";
-				$.each(value.Genre, function (index, gen) {
-					genre += `<a href="#">`+gen+`</a>`;
-				});
-				$(".comic-title").html(value.FullTitle);
-				$(".short-desc").html(value.Synopsis);
-				$(".comic-genre").html(genre);
-			}
+		$.getJSON('resources/js/json/comics.json', function(data) {
+			$.each(data, function(index, value) {
+				if (value.id == "<?php echo $_GET['id']; ?>") {
+					var genre = "";
+					$.each(value.Genre, function (index, gen) {
+						genre += `<a href="#">`+gen+`</a>`;
+					});
+					$(".comic-title").html(value.FullTitle);
+					$(".short-desc").html(value.Synopsis);
+					$(".comic-genre").html(genre);
+					$(".comic-title-container").css("background-image", "url("+value.Background+")");
+					$.each(value.Episodes, function (index, ep) {
+						$("#episodes").append(`
+							<div class="comic-episodes">
+		            <div class="row">
+		              <div class="col-2 comic-episodes-thumb">
+		                <img src="`+ep.Thumbnail+`"/>
+		              </div>
+		              <div class="col-6 comic-episodes-title">
+		                <p><a href="read?id=`+index+`">`+ep.Title+`</a></p>
+		              </div>
+		              <div class="col-4 comic-episodes-timestamp">
+		                <div class="row no-gutters">
+		                  <div class="col-9">
+		                    <p>Mar 18, 2018</p>
+		                  </div>
+		                  <div class="col-3">
+		                    `+"#"+(index+1)+`
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+						`);
+					})
+				}
+			});
 		});
-	});
 	</script>
 </body>
 </html>

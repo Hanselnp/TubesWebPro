@@ -1,209 +1,311 @@
 [
 	{
+		"id" : 0,
 		"FullTitle": "Fuuka",
 		"Synopsis" : "Fuuka is a sequel to the 2004 manga Suzuka. The story follows Yuu Haruna, a loner and an avid Twitter user that made a promise with his childhood friend Koyuki Hinashi of starting a band. One night, on his way to buy dinner, he stops to take a photo to upload to Twitter...",
 		"Genre" : [
 			"Shonen", "Music"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "resources/images/fuuka.jpg",
 		"ReleaseYear": "2011",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 1,
 		"FullTitle": "DKV 4",
 		"Synopsis" : "Komik ini menceritakan si Juki dengan 3 orang sahabatnya yang baru saja lulus SMU. Mereka memutuskan untuk mengambil jurusan kuliah yang berbeda-beda.Bagaimana cerita 4 sekawan ini dalam menjalani perkuliahan mereka? ...",
 		"Genre" : [
 			"Shonen"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "resources/images/dkv4.jpg",
 		"ReleaseYear": "2016",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 2,
 		"FullTitle": "Attack on Titan Vol.1",
 		"Synopsis" : "In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the...",
 		"Genre" : [
 			"Shonen"
 		],
-		"Link" : "comic-chapter.php",
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "resources/images/attackontitan.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 3,
 		"FullTitle": "Violet Evergarden",
 		"Synopsis" : "",
 		"Genre" : [
 			"Shonen"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "resources/images/VioletEvergarden.png",
 		"ReleaseYear": "2015",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 4,
 		"FullTitle": "Si Juki",
 		"Synopsis" : "",
 		"Genre" : [],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "http://webtoon.phinf.naver.net/20161227_263/1482806028477cVCka_JPEG/EC8DB8EB84A4EC9DBC_ipad.jpg?type=a210",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 5,
 		"FullTitle": "Lucunya Hidup Ini",
 		"Synopsis" : "Tentang hidup yang dilihat dari sudut pandang berbeda hingga kita bisa menyeringai melihatnya.",
 		"Genre" : [
 			"SliceOfLife"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/LucunyaHidupIni.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 6,
 		"FullTitle": "Serba Salah",
 		"Synopsis" : "Galau selalu disalahkan? Ngapain galau, ketawain aja!",
 		"Genre" : [
 			"SliceOfLife"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/SerbaSalah.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 7,
 		"FullTitle": "My Kitty and Old Dog",
 		"Synopsis" : "Hewan-hewan lucu akan membuat hatimu terenyuh. Kisah anjing pudel tua dengan penglihatan kabur dan anak kucing lucu yang selalu menanti perhatian dan rasa sayang dari sang majikan. Hewan-hewan lucu ini akan membuat hatimu terenyuh serta mungkin menitikkan air mata.",
 		"Genre" : [
 			"SliceOfLife"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/MyKittyAndOldDog.jpeg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 8,
 		"FullTitle": "Sekar X Popular",
 		"Synopsis" : "Sekar adalah seorang gadis SMA biasa yang menyukai kakak kelasnya. Untuk menarik perhatian sang kakak kelas, Sekar harus menjadi populer! Mampukah Sekar menjadi populer dan mendapatkan pujaan hatinya?",
 		"Genre" : [
 			"SliceOfLife"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/SekarXPopular.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 9,
 		"FullTitle": "Stalker",
 		"Synopsis" : "Stalker yang telah mengincarmu selama 6 tahun akan menceritakan sesuatu...",
 		"Genre" : [
 			"Thriller"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/Stalker.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 10,
 		"FullTitle": "Riot_404",
 		"Synopsis" : "Teknologi dan digital telah berkembang pesat. Dunia yang tadinya di bawah kaki ini, kemudian menyusut ke genggaman tangan. Tidak ada tempat untuk kalian kabur..!",
 		"Genre" : [
 			"Thriller"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/Riot404.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 11,
 		"FullTitle": "Dead Days",
 		"Synopsis" : "Dari mana asal virus zombie yang menyebar? Bisakah mereka yang tersisa bertahan hidup di tengah kehancuran umat manusia?",
 		"Genre" : [
 			"Thriller"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/DeadDays.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Title": "This is the #1 title",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	},
 	{
+		"id" : 12,
 		"FullTitle": "Bastard",
 		"Synopsis" : "Pembunuhan berantai dengan korban para wanita tak berdosa sedang terjadi! Meski kelihatan lemah dan sakit-sakitan, hanya Jin lah yang mengetahui siapa pembunuh misterius itu. Monster macam apa yang begitu keji pada korbannya?",
 		"Genre" : [
 			"Thriller"
 		],
+		"Background" : "resources/images/aot-thumb.jpg",
 		"Thumbnail" : "resources/images/Bastard.jpg",
 		"Cover": "resources/images/sijuki.jpg",
 		"ReleaseYear": "2012",
-		"Pages": [{
-			"1": "resources/images/e1.jpg",
-			"2": "resources/images/e2.jpg",
-			"3": "resources/images/e3.jpg"
-		}],
+		"Episodes": [
+			{
+				"Thumbnail": "resources/images/aot-square.png",
+				"Pages": [{
+					"1": "resources/images/e1.jpg",
+					"2": "resources/images/e2.jpg",
+					"3": "resources/images/e3.jpg"
+				}]
+			}
+		],
 		"URI": "comic-chapter.php"
 	}
 ]
