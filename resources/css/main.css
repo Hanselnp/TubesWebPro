@@ -88,15 +88,12 @@ header .container-fluid .pull-right div {
 .slider {
   margin-top: -10px;
   z-index: -1;
-  background: url("../images/dummy.jpg");
   padding: 10px 0 0 0;
 }
 
-
-
 /* Overlay Bootstrap Control */
 .carousel-control-next, .carousel-control-prev {
-  width: 5%;
+  width: 10%;
 }
 
 /* Container Section */
@@ -167,6 +164,161 @@ header .container-fluid .pull-right div {
 
 #releases .releases-container .fa-arrow-circle-right {
   font-size: 40px;
+}
+
+/* Section Login */
+#login-box {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* Form Container Component */
+.form-container {
+    font-family: 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.form-container .height-350 {
+    height: 350px;
+}
+
+.form-container .scroll-div {
+    overflow-y: auto;
+}
+
+.form-container input:not(.checkbox-type),
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 0 !important;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.form-container textarea {
+    resize: none;
+}
+
+@media (min-height: 565px) {
+    .form-container textarea {
+        height: 100%;
+        min-height: 160px;
+    }
+}
+
+.form-container select {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-size: contain;
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+    background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+    appearance: none;
+}
+
+.form-container select:focus {
+    background-image:
+    linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+    background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+    outline: 0;
+}
+
+.form-container:not(:first-child) {
+    margin-top: 10px;
+}
+
+.form-container .contain-textarea {
+    height: 65%;
+}
+
+.form-container:not(.summernote-editor):last-child button,
+.form-container:not(.summernote-editor) .form-container-content:not(.table-container) button {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #191919;
+    margin-top: 10px;
+    background: #F44336;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.form-container button:hover {
+  background: #00bcd4 !important;
+  cursor: pointer;
+}
+
+.form-container-head {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.form-container-head small {
+    font-weight: normal;
+}
+
+.form-container-content {
+  position: relative;
+}
+
+.form-container-content .thumb-square {
+    width: 200px;
+    height: 200px;
+}
+
+.form-container-content .uploader {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  // padding: 10px;
+  min-height: 230px;
+}
+
+.no-full input[type="file"] {
+    width: 300px !important;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.up-message-center .ion {
+    font-size: 100px;
+}
+.up-message-center div:last-child{
+    margin-top: 10px;
+}
+
+.up-message-center input {
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
 }
 
 /* Section Popularitas Berdasarkan Genre */
@@ -344,8 +496,21 @@ header .container-fluid .pull-right div {
   transform: translateY(-50%);
 }
 
+.comic-episodes-container .comic-episodes-timestamp .row p {
+  position: absolute;
+}
+
 .comic-episodes-container .comic-episodes-title p {
   font-size: 17px;
+}
+
+.comic-episodes-container .comic-episodes-title a {
+  color: #000;
+}
+
+.comic-episodes-container .comic-episodes-title a:hover {
+  color: #007bff;
+  text-decoration: none;
 }
 
 .comics-recommendation {
