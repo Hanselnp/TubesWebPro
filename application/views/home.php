@@ -1,117 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Premicom</title>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="resources/css/main.css" rel="stylesheet">
-	<link href="resources/css/src.css" rel="stylesheet">
-	<link href="resources/css/read.css" rel="stylesheet">
-</head>
+<?php include ('header.php'); ?>
 <body>
-    <header>
-      <div class="container-fluid">
-        <div class="col-xs-9 header-container">
-          <div class="pull-left">
-            <div class="logo">
-              <a href=""><img src="resources/images/logo.png"></a>
-            </div>
-            <div class="menu">
-              <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Rilisan Harian</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Genre</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Beli Komik</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="pull-right">
-            <div class="search">
-							<form id="searches" method="POST">
-	              <input placeholder="Cari komik"><button class="search-button" type="submit"><i class="fas fa-search"></i></button>
-							</form>
-            </div>
-            <div class="login">
-              <a onclick="" href="#">Login</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-		<div id="changeable"></div>
-  <!-- Javascript & Jquery Init -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-	</script>
-	<script src="resources/js/fontawesome.js">
-	</script>
-	<script>
-		$("#searches").on("submit", function(e) {
-			e.preventDefault();
-			changeable("search", $("#searches input").val());
-		});
+	<?php include ('navbar.php'); ?>
+	<div id="changeable">
+		<div class="slider" style="background: url('resources/images/aot-wallpaper.jpg');">
+		  <div class="container-fluid">
+		    <div class="col-12 col-md-10 mx-auto">
+		      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		        <div class="carousel-inner">
+		          <div class="carousel-item active">
+		            <img class="d-block w-100" src="resources/images/aot-slider.png" alt="First slide">
+		          </div>
+		          <!-- <div class="carousel-item">
+		            <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="Second slide">
+		          </div>
+		          <div class="carousel-item">
+		            <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="Third slide">
+		          </div> -->
+		        </div>
+		        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		          <span class="sr-only">Previous</span>
+		        </a>
+		        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		          <span class="sr-only">Next</span>
+		        </a>
+		      </div>
+		   	</div>
+		 	</div>
+		</div>
+		<div class="container-fluid" id="releases">
+		  <div class="col-12 col-md-10 mx-auto pt-3 pb-3">
+		    <div class="container-head">
+		      Rilisan Komik
+		    </div>
+		    <div class="container-content mt-1" id="releases-json">
 
-		function changeable(pageName, searchThis, data) {
-			$.ajax({
-				type: "GET",
-				url: "pageprocessor/redir_page?content="+pageName+"&title="+data,
-				success: function(response) {
-					$("#changeable").html(response);
-					if (searchThis != null || searchThis != undefined) {
-						$.getJSON("resources/js/json/comics.json", function (val) {
-							$.each(val, function(index, data) {
-								if (data.FullTitle.toUpperCase() == searchThis.toUpperCase()) {
-									var genre = "";
-									$.each(data.Genre, function(index, gen) {
-										genre += `<a href="#">`+gen+`</a> `;
-									})
-									$(".result").append(`
-										<div class="row mt-3 result-bg">
-											<div class="col-12 col-md-2">
-												<div class="title">
-													<img src="`+data.Cover+`">
-												</div>
-											</div>
-											<div class="col-12 col-md-9 container box">
-												<div class="row no-gutters">
-													<div class="title col-12">
-														<a href="#" onclick="changeable('comic-chapter', null, '`+data.FullTitle+`')">
-														<h3>`+data.FullTitle+`</h3></a>
-													</div>
-												</div>
-												<hr />
-												<div class="row">
-													<div class="container col-12">
-														`+data.Synopsis+`
-													</div>
-												</div>
-												<div class="row">
-													<div class="genre col-12">
-														<div class="comic-genre">
-															Genre : `+genre+`
-														</div>
-														<div class="r8m8">Rating : <i class="fas fa-star"></i> 9.83</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									`);
-								}
-							});
-						});
+		    </div>
+		  </div>
+		</div>
+		<div class="container-fluid" id="popular">
+		  <div class="col-12 col-md-10 mx-auto pt-3 pb-3">
+		    <div class="container-head">
+		      Komik Terpopuler Berdasarkan Genre
+		    </div>
+		    <div class="row">
+		      <div class="col-12">
+		        <div class="row no-gutters" id="first-row">
+		          <div class="col square square-begin">
+		            <div class="square-title">
+		              Slice of Life
+		            </div>
+		            <div class="square-desc">
+		              Gambaran Potongan Kehidupan
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="row">
+		      <div class="col-12">
+		        <div class="row no-gutters" id="second-row">
+		          <div class="col square square-begin second-begin">
+		            <div class="square-title">
+		              Thriller
+		            </div>
+		            <div class="square-desc">
+		              Kisah menegangkan yang membuatmu merinding!
+		            </div>
+		          </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="container-fluid" id="attrib">
+		  <div class="col">
+		    <a href="#">About Us</a> • <a href="#">Terms of Services</a> • <a href="#">F.A.Q.</a> • <a href="#">Contact Us</a>
+		  </div>
+		  <div class="col">
+		    &copy; Premicom 2018
+		  </div>
+		</div>
+	</div>
+  <!-- Javascript & Jquery Init -->
+	<?php include ('javascript-loader.php'); ?>
+	<script>
+		$(function() {
+			$.getJSON('resources/js/json/comics.json', function(data) {
+				var i = 0;
+				var j = 0;
+				$.each(data, function (index, value) {
+					if ($.inArray("SliceOfLife", value.Genre) != -1 && i < 4) {
+						i++;
+						var extra;
+						if (i == 4) {
+							extra = "extra";
+						} else {
+							extra = "";
+						}
+
+						if (value.Synopsis.length >= 75) {
+							var syn = value.Synopsis.substring(0, 72)+"...";
+						} else {
+							var syn = value.Synopsis;
+						}
+						$("#first-row").append(`
+							<div class="col-12 col-md square `+ extra +`" id="`+$.trim(value.FullTitle)+`">
+							<text>
+								<p style="width:50%;">`+value.FullTitle+`</p>
+								<p class="hideable">
+									--- <br />
+									<small>`+syn+`</small>
+								</p>
+							</text>
+							<img src="`+value.Thumbnail+`">
+							</div>
+						`);
 					}
+
+					if ($.inArray("Thriller", value.Genre) != -1 && j < 4) {
+						j++;
+						var extra;
+						if (j == 4) {
+							extra = "extra"
+						} else {
+							extra = "";
+						}
+
+						if (value.Synopsis.length >= 75) {
+							var syn = value.Synopsis.substring(0, 72)+"...";
+						} else {
+							var syn = value.Synopsis;
+						}
+						$("#second-row").append(`
+							<div class="col-12 col-md square `+ extra +`" id="`+$.trim(value.FullTitle)+`">
+								<text>
+									<p style="width:50%;">`+value.FullTitle+`</p>
+									<p class="hideable">
+										--- <br />
+										<small>`+syn+`</small>
+									</p>
+								</text>
+								<img src="`+value.Thumbnail+`">
+							</div>
+						`)
+					}
+				});
+				while (i < 4) {
+					i++;
+					$("#first-row").append(`
+						<div class="col-12 col-md square square-begin"></div>
+					`);
+				}
+
+				while (j < 4) {
+					j++;
+					$("#second-row").append(`
+						<div class="col-12 col-md square square-begin"></div>
+					`)
 				}
 			});
-		}
 
+			$.getJSON('resources/js/json/comics.json', function(data) {
+				$.each(data, function(index, value) {
+					if (index <= 4) {
+						$("#releases-json").append(`
+							<div class="releases-container col-12 col-md-2">
+								<div class="row">
+									<div class="releases-image">
+										<img src="`+value.Cover+`"/>
+									</div>
+								</div>
+									<div class="releases-head mt-2 mb-2">
+										<div class="releases-head-title">
+											<a href="chapters?id=`+value.id+`" onclick="">`+value.FullTitle+`</a>
+										</div>
+									</div>
+							</div>
+						`);
+					}
+				});
+				$("#releases-json").append(`
+					<div class="releases-container col-12 col-md-2 sm-absolute-vertical-center nobg text-center">
+						<i class="fas fa-arrow-circle-right"></i> <br />
+						See more
+					</div>
+					`);
+			});
+		});
+	</script>
+	<script>
 		$("#changeable").on("mouseenter", ".square", function(val) {
 			$(this).each(function(i, value) {
 				$(this).find("img").hide();
@@ -126,18 +204,18 @@
 			});
 		});
 
-		function read(name, e) {
-			e.preventDefault();
-			$.ajax({
-				type: "GET",
-				url: "pageprocessor/redir_page?content=read",
-				success: function(response) {
-					$("#changeable").html(response);
-				}
-			});
-		}
+		// function read(name, e) {
+		// 	e.preventDefault();
+		// 	$.ajax({
+		// 		type: "GET",
+		// 		url: "pageprocessor/redir_page?content=read",
+		// 		success: function(response) {
+		// 			//$("#changeable").html(response);
+		// 		}
+		// 	});
+		// }
 
-		changeable("dashboard");
+		//changeable("dashboard");
 	</script>
 </body>
-</html>
+<?php include ('footer.php'); ?>
