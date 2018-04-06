@@ -102,8 +102,18 @@ header .container-fluid .pull-right div {
   padding-left: 0px;
 }
 
+ul li a{
+  color: white;
+}
+
+ul li a:hover{
+  color: #D9D0CD;
+  text-decoration: none;
+}
+
 .sidebar-header{
   text-align: center;
+  padding-top: 10px;
 }
 
 .sidebar-header img{ 
@@ -130,7 +140,6 @@ header .container-fluid .pull-right div {
 .information-column{
   width: 100%;
   height: 250px;
-  background-color: white;
   margin-top: 10px;
 }
 
@@ -140,17 +149,191 @@ header .container-fluid .pull-right div {
   left: 50%;
   transform: translate(-50%,-50%);
   height: 100%;
-
 }
 
 .like{
-  background-color: red;
+  background-color: white;
+  height: 250px;
+  
 }
 
 .inbox{
-  background-color: blue;
+  background-color: white;
 }
 
 .favourites{
-  background-color: green;
+  background-color: white;
+}
+
+.like-infor{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height : 130px;
+  width: 80px;
+}
+
+.space{
+  height: 2px;
+  width: 80px;
+  background-color: gray;
+  margin-top:80px;
+}
+
+#like{
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+}
+
+.like-counter{
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.inbox-infor{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height : 130px;
+  width: 80px;
+}
+
+#inbox{
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+}
+
+.inbox-counter{
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.fav-infor{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height : 130px;
+  width: 80px;
+}
+
+#fav{
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+}
+
+.fav-counter{
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.notification-column{
+  background-color: white;
+  width: 300px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+.notification-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 270px;
+}
+
+.notification-title{
+  width: 270px;
+  height: 50px;
+  background-color: #f44336;
+}
+
+.notif-text{
+  text-align: center;
+  font-size: 20px;
+  padding-top:10px;
+  color: white;
+}
+
+.notification{
+  width: 270px;
+  height: 80px;
+  background-color: white;
+}
+
+
+.in-notification{
+  background-color: black;
+  height: 70px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+.notification-clock{
+  padding-right: 10px;
+  text-align: right;
+  color: #5AD8D5;
+  font-size: 20px;
+}
+
+.notification-msg-container{
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.notification-time{
+  font-style: italic;
+  color: black;
+}
+
+.notification-msg{
+  font-size: 14px;
+}
+
+.profile-comments{
+  color: #5AD8D5;
+}
+
+.profile-comments:hover{
+  color: #94D8D5 !important;
+  text-decoration: none;
+}
+
+.readmore-title{
+  width: 270px;
+  height: 40px;
+  background-color: #f44336;
+}
+
+.notif-text{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  color: white;
+}
+
+.readmore{
+  color: white;
+}
+
+.readmore:hover{
+  text-decoration: none;
+  color: #D9D0CD;
 }

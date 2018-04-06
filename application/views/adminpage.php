@@ -3,8 +3,8 @@
 <head>
 	<title> Profile Page</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="resources/css/adminpage.css" rel="stylesheet">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="../resources/css/adminpage.css" rel="stylesheet">
+	<script src="../resources/js/fontawesome.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -47,23 +47,23 @@
     	<nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autohide" style="overflow: visible;">
     		<div class="sidebar-inner-container">
     			<div class="sidebar-header">
-    				<h4>Welcome, Satriowbw</h4>
+    				<h4>Satrio666</h4>
     				<!-- put your images profile here -->
-    				<img src="images/samplephoto.jpg">
+    				<img src="../resources/images/samplephoto.jpg">
     			</div>
     			<ul class="remove-dot list unstyled components">
-    				<li class="active"><a href="#">HOME</a></li>
-    				<li><a href="#">About</a></li>
+    				<li class="active"><a href="#">Beranda</a></li>
+    				<li><a href="#">Komik</a></li>
    		 			<li><!-- Link with dropdown items-->
-    					<a href="#homesubmenu" data-toggle="collapse" >Pages</a>
+    					<a href="#homesubmenu" data-toggle="collapse" >Unggah Komik</a>
     					<ul class="remove-dot collapse list-unstyled" id="HomeSubmenu">
     						<li><a href="#">Page</a></li>
    							<li><a href="#">Page</a></li>
     						<li><a href="#">Page</a></li>
  						</ul>
  					</li>
-    				<li><a href="#">Portofolio</a></li>
-    				<li><a href="#">Contacts</a></li>
+    				<li><a href="#">Update Profil</a></li>
+    				<li><a href="#">Pengaturan</a></li>
     			</ul>
     		</div>
     	</nav>
@@ -73,19 +73,111 @@
     			<div class="information-column container">
     				<div id="icon-information" class="row">
     					<div class="like col-sm">
-    						gg
+                            <div class="like-infor">
+    					       <i id="like" class="far fa-thumbs-up"></i>
+                               <div class="space"></div>
+                               <div class="like-counter">187</div>
+                            </div>
     					</div>
     					<div class="inbox col-sm">
-    						gg
+                            <div class="inbox-infor">
+                                <i id="inbox" class="fas fa-inbox"></i>
+                                <div class="space"></div>
+                                <div class="inbox-counter">32</div>
+                            </div>
     					</div>
     					<div class="favourites col-sm">
-    						gg
+    						<div class="fav-infor">
+                                <i id="fav" class="far fa-heart"></i>
+                                <div class="space"></div>
+                                <div class="fav-counter">73</div>
+                            </div>
     					</div>
     				</div>
     			</div>
     		</div>
     		<div class="col-12 col-sm-4">
-    			
+    			<div class="notification-column container">
+                    <div class="notification-box">
+                        <div class="notification-title">
+                            <div class="notif-text">Notification</div>
+                        </div>
+                        <div class="container">
+                            <div class="row mt-2 mb-2">
+                                <div class="col-2 notification-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="col-10 notification-msg-container">
+                                    <div class="row no-gutters notification-time">
+                                        1 minutes
+                                    </div>
+                                    <div class="row no-gutters notification-msg">
+                                        <a class="profile-comments" href="#">Satrio Wibowo</a> telah menyukai komik kamu!
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-2 mb-2">
+                                <div class="col-2 notification-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="col-10 notification-msg-container">
+                                    <div class="row no-gutters notification-time">
+                                        4 minutes
+                                    </div>
+                                    <div class="row no-gutters notification-msg">
+                                        <a class="profile-comments" href="#">Bagus Satrio</a> telah berlangganan komik kamu!
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-2 mb-2">
+                                <div class="col-2 notification-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="col-10 notification-msg-container">
+                                    <div class="row no-gutters notification-time">
+                                        5 minutes
+                                    </div>
+                                    <div class="row no-gutters notification-msg">
+                                        <a class="profile-comments" href="#">Satrio Wibowo</a> telah menyukai komik kamu!
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                             <div class="row mt-2 mb-2">
+                                <div class="col-2 notification-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="col-10 notification-msg-container">
+                                    <div class="row no-gutters notification-time">
+                                        6 minutes
+                                    </div>
+                                    <div class="row no-gutters notification-msg">
+                                        <a class="profile-comments" href="#">Satrio Wibowo</a> telah menyukai komik kamu!
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-2 mb-2">
+                                <div class="col-2 notification-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="col-10 notification-msg-container">
+                                    <div class="row no-gutters notification-time">
+                                        9 minutes
+                                    </div>
+                                    <div class="row no-gutters notification-msg">
+                                        <a class="profile-comments" href="#">Hansel Nathanael</a> telah berlangganan komik kamu!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="readmore-title">
+                            <div class="notif-text"><a class="readmore" href="#">Show More >></a></div>
+                        </div>
+                    </div>
+                </div>
     		</div>
     	</div>
     </div>
