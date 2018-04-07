@@ -4,6 +4,7 @@
 	<title> Profile Page</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="../resources/css/adminpage.css" rel="stylesheet">
+	<link href="../resources/css/main.css" rel="stylesheet">
 	<script src="../resources/js/fontawesome.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
@@ -12,9 +13,9 @@
       <div class="container-fluid">
         <div class="col-xs-9 header-container">
           <div class="pull-left">
-            <!-- <div class="logo">
-              <img src="#">
-            </div> -->
+						<div class="logo">
+		          <a href="../home"><img src="../resources/images/logo.png"></a>
+		        </div>
             <div class="menu">
               <ul class="nav">
                 <li class="nav-item">
@@ -36,7 +37,7 @@
 							</form>
             </div>
             <div class="login">
-              <a onclick="" href="#">Login</a>
+              <a onclick="" href="#">Dummy123</a>
             </div>
           </div>
         </div>
@@ -47,7 +48,7 @@
     	<nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autohide" style="overflow: visible;">
     		<div class="sidebar-inner-container">
     			<div class="sidebar-header">
-    				<h4>Satrio666</h4>
+    				<h4>Dummy123</h4>
     				<!-- put your images profile here -->
     				<img src="../resources/images/samplephoto.jpg">
     			</div>
