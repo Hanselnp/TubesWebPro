@@ -53,18 +53,18 @@
     				<img src="../resources/images/samplephoto.jpg">
     			</div>
     			<ul class="remove-dot list unstyled components">
-    				<li class="active"><a href="#">Beranda</a></li>
-    				<li><a href="#">Komik</a></li>
+    				<li class="active"><a href="#"><i class="fas fa-home"></i> Beranda</a></li>
+    				<li><a href="#"><i class="fas fa-book"></i> Komik</a></li>
    		 			<li><!-- Link with dropdown items-->
-    					<a href="#homesubmenu" data-toggle="collapse" >Unggah Komik</a>
+    					<a href="#homesubmenu" data-toggle="collapse" ><i class="fas fa-upload"></i> Unggah Komik</a>
     					<ul class="remove-dot collapse list-unstyled" id="HomeSubmenu">
     						<li><a href="#">Page</a></li>
    							<li><a href="#">Page</a></li>
     						<li><a href="#">Page</a></li>
  						</ul>
  					</li>
-    				<li><a href="#">Update Profil</a></li>
-    				<li><a href="#">Pengaturan</a></li>
+    				<li><a href="#"><i class="fas fa-edit"></i> Update Profil</a></li>
+    				<li><a href="#"><i class="fas fa-cog"></i> Pengaturan</a></li>
     			</ul>
     		</div>
     	</nav>
@@ -155,7 +155,7 @@
                                         6 minutes
                                     </div>
                                     <div class="row no-gutters notification-msg">
-                                        <a class="profile-comments" href="#">Satrio Wibowo</a> telah menyukai komik kamu!
+                                        <a class="profile-comments" href="#">David Ferdinand</a> telah menyukai komik kamu!
                                     </div>
                                 </div>
                             </div>
