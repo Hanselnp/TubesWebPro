@@ -9,7 +9,7 @@
   </div>
   <?php include('javascript-loader.php'); ?>
   <script>
-    $.getJSON("resources/js/json/comics.json", function (val) {
+    $.getJSON("<?php echo base_url(); ?>resources/js/json/comics.json", function (val) {
       $.each(val, function(index, data) {
         if (data.FullTitle.toUpperCase() == "<?php echo $_GET['searchq']?>".toUpperCase()) {
           var genre = "";

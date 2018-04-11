@@ -32,6 +32,24 @@
   margin:0 auto;
 }
 
+.information-column .icons-container {
+  background: white;
+  padding: 20px 0 0 0;
+}
+
+.information-column .icons-container .svg-inline--fa {
+  font-size: 70px;
+  text-align: center;
+}
+
+.information-column .icons-container .counter {
+  font-size: 20px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 0;
+  border-top: 2px solid #c0c0c0;
+}
+
 .remove-dot {
   list-style-type: none;
   padding: 0;
@@ -42,10 +60,6 @@
   width: 100%;
   text-align: left;
   padding: 10px 30px;
-}
-
-.container{
-
 }
 
 .information-column{
@@ -86,16 +100,8 @@
   width: 80px;
 }
 
-.space{
-  height: 2px;
-  width: 80px;
-  background-color: gray;
-  margin-top:80px;
-}
-
 #like{
   font-size: 70px;
-  position: absolute;
   text-align: center;
 }
 
@@ -157,21 +163,10 @@
 
 .notification-column{
   background-color: white;
-  width: 300px;
-  height: 700px;
   margin-top: 10px;
 }
 
-.notification-box{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 270px;
-}
-
-.notification-title{
-  width: 270px;
+.notification-column .notification-box .notification-title{
   height: 50px;
   background-color: #f44336;
 }
@@ -228,7 +223,6 @@
 }
 
 .readmore-title{
-  width: 270px;
   height: 40px;
   background-color: #f44336;
 }

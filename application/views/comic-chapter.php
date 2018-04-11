@@ -50,7 +50,7 @@
             <div class="col-4">
 							<div class="row">
 								<div class="col-4">
-									<img src="resources/images/thumbnail.jpg"/>
+									<img src="<?php echo base_url(); ?>resources/images/thumbnail.jpg"/>
 								</div>
 								<div class="col-8 pl-0">
 									<div class="absolute-vertical-center comics-recommendation-title">
@@ -63,7 +63,7 @@
             <div class="col-4">
 							<div class="row">
 								<div class="col-4">
-									<img src="resources/images/thumbnail.jpg"/>
+									<img src="<?php echo base_url(); ?>resources/images/thumbnail.jpg"/>
 								</div>
 								<div class="col-8 pl-0">
 									<div class="absolute-vertical-center comics-recommendation-title">
@@ -76,7 +76,7 @@
             <div class="col-4">
 							<div class="row">
 								<div class="col-4">
-									<img src="resources/images/thumbnail.jpg"/>
+									<img src="<?php echo base_url(); ?>resources/images/thumbnail.jpg"/>
 								</div>
 								<div class="col-8 pl-0">
 									<div class="absolute-vertical-center comics-recommendation-title">
@@ -93,7 +93,7 @@
   <!-- Javascript & Jquery Init -->
 	<?php include ('javascript-loader.php'); ?>
 	<script type="text/javascript">
-		$.getJSON('resources/js/json/comics.json', function(data) {
+		$.getJSON('<?php echo base_url(); ?>resources/js/json/comics.json', function(data) {
 			$.each(data, function(index, value) {
 				if (value.id == "<?php echo $_GET['id']; ?>") {
 					var genre = "";

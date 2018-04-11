@@ -2,13 +2,13 @@
 <body>
 	<?php include ('navbar.php'); ?>
 	<div id="changeable">
-		<div class="slider" style="background: url('resources/images/aot-wallpaper.jpg');">
+		<div class="slider" style="background: url('<?php echo base_url(); ?>resources/images/aot-wallpaper.jpg');">
 		  <div class="container-fluid">
 		    <div class="col-12 col-md-10 mx-auto">
 		      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		        <div class="carousel-inner">
 		          <div class="carousel-item active">
-		            <img class="d-block w-100" src="resources/images/aot-slider.png" alt="First slide">
+		            <img class="d-block w-100" src="<?php echo base_url(); ?>resources/images/aot-slider.png" alt="First slide">
 		          </div>
 		          <!-- <div class="carousel-item">
 		            <img class="d-block w-100" src="https://signage.uiowa.edu/sites/signage.uiowa.edu/files/slides/1920x800.jpg" alt="Second slide">
@@ -86,7 +86,7 @@
 	<?php include ('javascript-loader.php'); ?>
 	<script>
 		$(function() {
-			$.getJSON('resources/js/json/comics.json', function(data) {
+			$.getJSON('<?php echo base_url(); ?>resources/js/json/comics.json', function(data) {
 				var i = 0;
 				var j = 0;
 				$.each(data, function (index, value) {
@@ -161,7 +161,7 @@
 				}
 			});
 
-			$.getJSON('resources/js/json/comics.json', function(data) {
+			$.getJSON('<?php echo base_url(); ?>resources/js/json/comics.json', function(data) {
 				$.each(data, function(index, value) {
 					if (index <= 4) {
 						$("#releases-json").append(`

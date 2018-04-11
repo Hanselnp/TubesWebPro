@@ -25,9 +25,9 @@
 			</div>
 			<div class="row">
 				<div class="col-8 mx-auto comic-pages">
-					<img src="resources/images/e1.jpg">
-					<img src="resources/images/e2.jpg">
-					<img src="resources/images/e3.jpg">
+					<img src="<?php echo base_url(); ?>resources/images/e1.jpg">
+					<img src="<?php echo base_url(); ?>resources/images/e2.jpg">
+					<img src="<?php echo base_url(); ?>resources/images/e3.jpg">
 					<div class="space"></div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 			$(".komentar").append(`
 				<div class="row no-gutters mt-2 comment-item">
 					<div class="col-1">
-						<img src="resources/images/profile-square-extra-small.png" style="width: 100%; height: 100%; border-radius: 5px;">
+						<img src="<?php echo base_url(); ?>resources/images/profile-square-extra-small.png" style="width: 100%; height: 100%; border-radius: 5px;">
 					</div>
 					<div class="col-9 ml-2">
 						<div class="nameprofile">
@@ -97,7 +97,7 @@
 			$(".komentar").html(`
 				<div class="row no-gutters mt-2 comment-item">
 					<div class="col-1">
-						<img src="resources/images/profile-square-extra-small.png" style="width: 100%; height: 100%; border-radius: 5px;">
+						<img src="<?php echo base_url(); ?>resources/images/profile-square-extra-small.png" style="width: 100%; height: 100%; border-radius: 5px;">
 					</div>
 					<div class="col-9 ml-2">
 						<div class="nameprofile">
