@@ -13,6 +13,7 @@
       $.each(val, function(index, data) {
         if (data.FullTitle.toUpperCase() == "<?php echo $_GET['searchq']?>".toUpperCase()) {
           var genre = "";
+          is_empty = false;
           $.each(data.Genre, function(index, gen) {
             genre += `<a href="#">`+gen+`</a> `;
           })
@@ -30,7 +31,7 @@
                     <h3>`+data.FullTitle+`</h3></a>
                   </div>
                 </div>
-                <hr />
+                <hr/>
                 <div class="row">
                   <div class="container col-12">
                     `+data.Synopsis+`
@@ -49,6 +50,26 @@
           `);
         }
       });
+      if (is_empty == true) {
+        $(".result").append(`
+          <div class="row mt-3 result-bg">
+
+            <div class="col-12 col-md-9 container box">
+              <hr/>
+              <div class="row">
+                <div class="container col-12">
+                </div>
+              </div>
+              <div class="row">
+                <div class="genre col-12">
+                <h1>Cannot find what you're looking for...</h1>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        `);
+      }
     });
   </script>
 </body>
