@@ -16,7 +16,7 @@ header .container-fluid {
 }
 
 header .header-container {
-  height: 80px;
+  height: 60px;
   margin: 0 auto;
   position: relative;
   font-size: 14px;
@@ -181,6 +181,8 @@ header .container-fluid .pull-right div {
 /* Form Container Component */
 .form-container {
     font-family: 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .form-container .height-350 {
@@ -273,9 +275,8 @@ header .container-fluid .pull-right div {
 }
 
 .form-container-head {
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .form-container-head small {
@@ -284,6 +285,9 @@ header .container-fluid .pull-right div {
 
 .form-container-content {
   position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .form-container-content .thumb-square {

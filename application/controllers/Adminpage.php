@@ -27,19 +27,4 @@ class Adminpage extends CI_Controller {
 	{
 		$this->load->view('admincomic');
 	}
-
-	public function upload_comic()
-	{
-		$this->load->view('uploadcomic');
-	}
-
-	public function update_profile()
-	{
-		$this->load->view('updateprofile');
-	}
-
-	public function settings()
-	{
-		$this->load->view('settings');
-	}
 }
