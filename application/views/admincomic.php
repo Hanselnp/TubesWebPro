@@ -1,7 +1,6 @@
 <?php include ('header.php'); ?>
-  </body>
-  <?php include ('navbar.php'); ?>
   <body>
+    <?php include ('navbar.php'); ?>
     <div class="wrapper">
       <nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autohide" style="overflow: visible;" >
         <div class="sidebar-inner-container">

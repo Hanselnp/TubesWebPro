@@ -13,7 +13,7 @@
 						<a href="#"><i class="fas fa-home"></i> Beranda</a>
 					</li>
 					<li>
-						<a href="#"><i class="fas fa-book"></i> Komik</a>
+						<a href="<?php echo base_url(); ?>adminpage/comic"><i class="fas fa-book"></i> Komik</a>
 					</li>
 					<li>
 						<!-- Link with dropdown items-->
