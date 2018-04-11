@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Your comics</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  	<link href="<?php echo base_url(); ?>resources/css/adminpage.css" rel="stylesheet">
-  	<link href="<?php echo base_url(); ?>resources/css/main.css" rel="stylesheet">
-  	<script src="<?php echo base_url(); ?>resources/js/fontawesome.js"></script>
-  	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  </head>
+<?php include ('header.php'); ?>
+  </body>
   <?php include ('navbar.php'); ?>
   <body>
     <div class="wrapper">
