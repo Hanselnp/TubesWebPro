@@ -176,7 +176,9 @@
 												</div>
 											</div>
 											<div class="box-footer">
-												<a href="#">See more</a>
+												<div class="row">
+													<a href="#">See more</a>
+												</div>
 											</div>
 										</div>
 									</div>
