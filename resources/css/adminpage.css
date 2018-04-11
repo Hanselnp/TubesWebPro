@@ -231,10 +231,6 @@
   font-size: 14px;
 }
 
-.profile-comments{
-  color: #5AD8D5;
-}
-
 .profile-comments:hover{
   color: #94D8D5 !important;
   text-decoration: none;
