@@ -22,7 +22,7 @@ class Adminpage extends CI_Controller {
 	{
 		$this->load->view('adminpage');
 	}
-
+	
 	public function comic()
 	{
 		$this->load->view('admincomic');
