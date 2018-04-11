@@ -3,7 +3,7 @@
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
 </script>
-<script src="<?php echo base_url(); ?>resources/js/fontawesome.js">
+<script src="resources/js/fontawesome.js">
 </script>
-<script src="<?php echo base_url(); ?>resources/js/main.js">
+<script src="resources/js/main.js">
 </script>

@@ -80,7 +80,7 @@
 
 <script>
   $(function() {
-    $.getJSON('<?php echo base_url(); ?>resources/js/json/comics.json', function(data) {
+    $.getJSON('resources/js/json/comics.json', function(data) {
       var i = 0;
       var j = 0;
       $.each(data, function (index, value) {
@@ -155,7 +155,7 @@
       }
     });
 
-    $.getJSON('<?php echo base_url(); ?>resources/js/json/comics.json', function(data) {
+    $.getJSON('resources/js/json/comics.json', function(data) {
       $.each(data, function(index, value) {
         if (index <= 4) {
           $("#releases-json").append(`

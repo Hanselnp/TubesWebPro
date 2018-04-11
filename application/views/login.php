@@ -3,7 +3,7 @@
   <div class="login-box" id="login-box">
     <div class="form-container">
       <div class="form-container-content" style="text-align: center; padding: 15px 0 15px 0;">
-        <a href="home"><img src="<?php echo base_url(); ?>resources/images/logo.png" style="width: 50%;"></a>
+        <a href="home"><img src="resources/images/logo.png" style="width: 50%;"></a>
       </div>
     </div>
     <hr />
