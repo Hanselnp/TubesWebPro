@@ -9,5 +9,6 @@
 					</div>
 				</div>
       </div>
+      <?php include ('javascript-loader.php'); ?>
   </body>
 </html>
