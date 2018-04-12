@@ -196,5 +196,46 @@
   </div>
 	<!--JavaScript & Jquery Init-->
 	<?php include ('javascript-loader.php'); ?>
+	<script>
+	var ctx = document.getElementById("myChart").getContext('2d');
+	var myChart = new Chart(ctx, {
+	    type: 'line',
+	    data: {
+	        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+	        datasets: [{
+	          label: '# of Votes',
+	          data: [12, 19, 3, 5, 2, 3],
+	          // backgroundColor: [
+	          //     'rgba(54, 162, 235, 0.2)'
+	          // ],
+	          borderColor: [
+	              'rgba(255,99,132,1)'
+	          ],
+	          fill: false,
+	          borderWidth: 2
+	        }, {
+	          label: '# of Votes 2',
+	          data: [13, 11, 11, 6, 33, 123],
+	          // backgroundColor: [
+	          //     'rgba(255, 159, 64, 0.2)'
+	          // ],
+	          borderColor: [
+	              'rgba(75, 192, 192, 1)',
+	          ],
+	          fill: false,
+	          borderWidth: 2
+	        }],
+	    },
+	    options: {
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero:true
+	                }
+	            }]
+	        }
+	    }
+	});
+	</script>
 </body>
 <?php include('footer.php'); ?>

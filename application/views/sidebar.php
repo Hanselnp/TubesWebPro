@@ -6,7 +6,7 @@
       <img src="<?php echo base_url(); ?>resources/images/samplephoto.jpg"></div>
       <ul class="remove-dot list unstyled components">
         <li class="active">
-          <a href="#"><i class="fas fa-home"></i> Beranda</a>
+          <a href="<?php echo base_url(); ?>adminpage"><i class="fas fa-home"></i> Beranda</a>
         </li>
         <li>
           <a href="<?php echo base_url(); ?>adminpage/comics"><i class="fas fa-book"></i> Komik</a>
