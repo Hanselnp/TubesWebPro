@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <body>
-	<?php include('navbar.php'); ?>
+	<?php include('admin_navbar.php'); ?>
 	<div class="wrapper">
 		<!-- sidebar header-->
 		<!-- <div class="container-fluid"> -->
