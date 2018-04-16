@@ -20,7 +20,11 @@ class Adminpage extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('adminpage');
+		if ($this->session->loggedIn == true) {
+			$this->load->view('adminpage');
+		} else {
+			redirect(base_url().'login');
+		}
 	}
 
 	public function comics()
@@ -41,5 +45,11 @@ class Adminpage extends CI_Controller {
 	public function settings()
 	{
 		$this->load->view('settings');
+	}
+
+	public function logout()
+	{
+		$this->session->sess_destroy();
+		redirect(base_url().'login');
 	}
 }
