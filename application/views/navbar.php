@@ -3,7 +3,7 @@
     <div class="col-xs-9 header-container">
       <div class="pull-left">
         <div class="logo">
-          <a href="home"><img src="<?php echo base_url(); ?>resources/images/logo.png"></a>
+          <a href="<?php echo base_url(); ?>home"><img src="<?php echo base_url(); ?>resources/images/logo.png"></a>
         </div>
         <div class="menu">
           <ul class="nav">
@@ -33,7 +33,7 @@
           </form>
         </div>
         <div class="login">
-          <a onclick="" href="login">Login</a>
+          <a onclick="" href="<?php echo base_url(); ?>login">Login</a>
         </div>
       </div>
     </div>
