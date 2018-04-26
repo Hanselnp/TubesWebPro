@@ -9,4 +9,5 @@
 	<link href="<?php echo base_url(); ?>resources/css/adminpage.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>resources/css/src.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>resources/css/read.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>resources/css/marketplace.css" rel="stylesheet">
 </head>

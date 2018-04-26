@@ -1,0 +1,126 @@
+.shopnavbar{
+  height: 50px;
+  background-color:  #f44336;
+  margin-top: 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.shopnavbar .row {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.genre a{
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.genre a:hover{
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  color: #DBDBDB;
+}
+
+.container{
+  margin-bottom : 0 !important;
+}
+.market{
+  border-bottom-right-radiu10: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+}
+
+.product-list{
+  border: solid white;
+  border-width: 0.5px;
+  padding-bottom: 10px;
+}
+.product-list:hover{
+  box-shadow:5px;
+  border: solid white;
+  border-width: 2px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 100px rgba(33,33,33,.2);
+}
+
+.product-list img{
+  width: 100%;
+  padding-top: 10px;
+}
+
+.product-company{
+  padding-top:5px;
+  font-size: 12px;
+  color: gray;
+}
+
+.product-name{
+  font-size: 18px;
+  color: orange;
+}
+
+.product-price{
+  font-size: 24px;
+  color: brown;
+}
+
+.product-promo{
+  font-size: 12px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.promo-logo{
+  padding: 2px;
+  background-color: #60BEE3;
+  border-radius: 5px;
+}
+
+.order-now{
+  padding-left: 130px;
+}
+
+.ordernow{
+  text-decoration: none !important;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F6774F;
+  border-radius: 5px;
+  color: white;
+}
+
+.ordernow:hover{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none !important;
+  background-color: #FF7B52;
+  border-radius: 5px;
+  color: white;
+}
+
+.search-item{
+  display: inline-block;
+  width: 200px;
+  padding-top: 5px;
+}
+
+.search-itembar{
+  border: none;
+}
+
+.search-button{
+  background-color: transparent;
+  border: none;
+}
+
+.search-button:hover{
+  background-color: #FF8D87;
+  border: none;
+}
