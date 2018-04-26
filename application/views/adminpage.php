@@ -62,7 +62,7 @@
 										<div class="container box-container">
 											<div class="box-head">
 												<div class="row">
-													Daftar Pesanan
+													Notifikasi
 												</div>
 											</div>
 											<div class="box-body">
