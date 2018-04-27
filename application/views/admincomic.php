@@ -23,7 +23,7 @@
                             <div class="comics_images" style="background-image: url('<?php echo base_url() ?>resources/images/dkv4.jpg')"></div>
                             <div class="comics_description">
                               <div class="comics_title">
-                                <a href="#">Attack on Titan Volume 1</a>
+                                <a href="<?php echo base_url(); ?>adminpage/comics_detail/1">Attack on Titan Volume 1</a>
                               </div>
                               <div class="comics_viewcount">
                                 <span><i class="fas fa-eye"></i></span> <span>2010</span> | <span><i class="far fa-calendar"></i></span> <span>24 January 2018</span>
@@ -127,52 +127,57 @@
               </div>
             </div>
             <div class="col-12 col-sm-5">
-                <div class="col-12 col-sm-12">
-                  <div class="container box-container">
-                    <div class="box-head">
-                      <div class="row">
-                        Statistics
-                      </div>
+              <div class="col-12 col-sm-12">
+                <div class="container box-container">
+                  <div class="box-head">
+                    <div class="row">
+                      Statistics
                     </div>
-                    <div class="box-body">
-                      <div class="row box-body-row">
-                        <div class="form-container">
-                          <div class="form-container-head">
-                            Total Kunjungan Komik
-                          </div>
-                          <div class="form-container-content">
-                            12414
-                          </div>
+                  </div>
+                  <div class="box-body">
+                    <div class="row box-body-row">
+                      <div class="form-container">
+                        <div class="form-container-head">
+                          Total Kunjungan Komik
                         </div>
-                        <div class="form-container">
-                          <div class="form-container-head">
-                            Total Revenue
-                          </div>
-                          <div class="form-container-content">
-                            Rp12.000.000
-                          </div>
+                        <div class="form-container-content">
+                          12414
                         </div>
-                        <div class="form-container">
-                          <div class="form-container-head">
-                            Kunjungan Komik Tertinggi
-                          </div>
-                          <div class="form-container-content">
-                            Attack on Titan Vol. 1
-                          </div>
+                      </div>
+                      <div class="form-container">
+                        <div class="form-container-head">
+                          Total Revenue
                         </div>
-                        <div class="form-container">
-                          <div class="form-container-head">
-                            Total Komik Terpublish
-                          </div>
-                          <div class="form-container-content">
-                            20 Komik
-                          </div>
+                        <div class="form-container-content">
+                          Rp12.000.000
+                        </div>
+                      </div>
+                      <div class="form-container">
+                        <div class="form-container-head">
+                          Kunjungan Komik Tertinggi
+                        </div>
+                        <div class="form-container-content">
+                          Attack on Titan Vol. 1
+                        </div>
+                      </div>
+                      <div class="form-container">
+                        <div class="form-container-head">
+                          Total Komik Terpublish
+                        </div>
+                        <div class="form-container-content">
+                          20 Komik
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div class="box-footer">
+                    <div class="row">
+                      <a href="<?php echo base_url() ?>adminpage/stats">Lihat Lebih Lengkap</a>
+                    </div>
+                  </div>
                 </div>
-             </div>
+              </div>
+            </div>
 				  </div>
 				</div>
       </div>
@@ -273,7 +278,8 @@
           							<div class="uploader">
           									<div class='dz-default dz-message up-message-center no-full'>
           											<div>
-          													<i class='ion ion-upload'></i> <br />
+          													<i class='fas fa-upload'></i> <br />
+                                    <br />
           													Tarik file atau klik untuk mengupload komik.<br />
           													Cover yang diupload harus memiliki rasio 3:2 (landscape) dan berukuran masing-masing dibawah 1MB
           											</div>
@@ -306,9 +312,11 @@
         </div>
       </div>
       <?php include('javascript-loader.php'); ?>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/dropzone.js"></script>
       <script>
         $("#uploadSerial").on("click", function() {
           $(".modal-overlay").slideToggle();
+          createUploader(".uploader", 1, false, "cover-comic");
         });
 
         $("#close").on("click", function() {
@@ -356,6 +364,5 @@
         //     });
         //   });
           </script>
-      <?php include ('javascript-loader.php'); ?>
   </body>
 </html>

@@ -20,6 +20,12 @@
   text-decoration: none;
 }
 
+#sidebar ul li a span {
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
 .sidebar-header{
   text-align: center;
   padding-top: 10px;
@@ -296,4 +302,8 @@
 
 .display_comics .row:not(:last-child) {
   margin-bottom: 10px;
+}
+
+.dz-clickable {
+  cursor: pointer;
 }

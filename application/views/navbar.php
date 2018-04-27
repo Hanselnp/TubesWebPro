@@ -33,7 +33,11 @@
           </form>
         </div>
         <div class="login">
-          <a onclick="" href="<?php echo base_url(); ?>login">Login</a>
+          <?php if ($this->session->loggedIn != true) { ?>
+            <a onclick="" href="<?php echo base_url(); ?>login">Login</a>
+          <?php } else { ?>
+            <a onclick="" href="<?php echo base_url(); ?>adminpage"><i class="fas fa-paint-brush"></i> Comic Studio</a>
+          <?php } ?>
         </div>
       </div>
     </div>

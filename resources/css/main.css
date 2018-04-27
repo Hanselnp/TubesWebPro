@@ -180,7 +180,7 @@ header .container-fluid .pull-right div {
 /* Form Container Component */
 .form-container {
   font-family: 'Roboto', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   width: 100%;
 }
 
@@ -297,10 +297,14 @@ header .container-fluid .pull-right div {
   background-size: cover;
   background-position: center center;
   width: 100%;
+  border: 1px solid #e5e5e5;
   border-radius: 10px;
   text-align: center;
-  // padding: 10px;
   min-height: 230px;
+}
+
+.form-container-content .fa-upload {
+  font-size: 50px;
 }
 
 .no-full input[type="file"] {
@@ -610,4 +614,14 @@ header .container-fluid .pull-right div {
 
 .modal-overlay #close:hover {
   cursor: pointer;
+}
+
+.comic_episodes .row {
+  padding: 5px 0;
+}
+
+.episodes-thumbnails {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
 }

@@ -42,6 +42,19 @@ class Adminpage extends CI_Controller {
 		$this->load->view('updateprofile');
 	}
 
+	public function comics_detail($id) {
+		// $this->load->model('comics');
+		$comic = array(
+			'id' => $id,
+			'epNum' => "1"
+		);
+		$this->load->view('comics_detail', $comic);
+	}
+
+	public function stats() {
+		$this->load->view('stats');
+	}
+
 	public function settings()
 	{
 		$this->load->view('settings');
@@ -50,6 +63,6 @@ class Adminpage extends CI_Controller {
 	public function logout()
 	{
 		$this->session->sess_destroy();
-		redirect(base_url().'login');
+		redirect($_SERVER['HTTP_REFERER']);
 	}
 }
