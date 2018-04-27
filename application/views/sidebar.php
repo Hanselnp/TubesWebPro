@@ -14,12 +14,6 @@
         <li>
           <a href="<?php echo base_url(); ?>adminpage/stats"><span><i class="fas fa-chart-bar"></i></span> Statistik</a>
         </li>
-        <li>
-          <a href="#"><span><i class="fas fa-edit"></i></span> Update Profil</a>
-        </li>
-        <li>
-          <a href="#"><span><i class="fas fa-cog"></i></span> Pengaturan</a>
-        </li>
       </ul>
     </div>
   </nav>
