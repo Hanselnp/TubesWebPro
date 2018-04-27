@@ -8,27 +8,28 @@
     </div>
     <hr />
     <form method="post" action="<?php echo base_url(); ?>login/auth">
-    <div class="form-container">
-      <div class="form-container-head">
-        Username
+      <div class="form-container">
+        <div class="form-container-head">
+          Username
+        </div>
+        <div class="form-container-content">
+          <input type="text" name="username" placeholder="Username">
+        </div>
       </div>
-      <div class="form-container-content">
-        <input type="text" name="username" placeholder="Username">
+      <div class="form-container">
+        <div class="form-container-head">
+          Password
+        </div>
+        <div class="form-container-content">
+          <input type="password" name="password" placeholder="Password">
+        </div>
       </div>
-    </div>
-    <div class="form-container">
-      <div class="form-container-head">
-        Password
+      <div class="form-container">
+        <div class="form-container-content">
+          <button type="submit">Login</button>
+        </div>
       </div>
-      <div class="form-container-content">
-        <input type="password" name="password" placeholder="Password">
-      </div>
-    </div>
-    <div class="form-container">
-      <div class="form-container-content">
-        <button type="submit">Login</button>
-      </div>
-    </div>
+    </form>
   </div>
   <?php include('javascript-loader.php'); ?>
 </body>
