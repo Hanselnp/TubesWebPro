@@ -74,10 +74,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="<?php echo base_url(); ?>marketplace2" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 							</div>
@@ -102,10 +100,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 							</div>
@@ -131,10 +127,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
@@ -161,10 +155,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
@@ -193,10 +185,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
@@ -223,10 +213,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
@@ -253,10 +241,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
@@ -283,10 +269,8 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#">
-											<div class="ordernow">
+										<a href="#" class="ordernow">
 												Order Now
-											</div>
 										</a>
 									</div>
 								</div>
