@@ -74,7 +74,7 @@
 										</div>
 									</div>
 									<div class="row order-now">
-										<a href="#" class="ordernow">
+										<a href="<?php echo base_url(); ?>marketplace2" class="ordernow">
 												Order Now
 										</a>
 									</div>

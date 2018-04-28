@@ -17,7 +17,7 @@
               <a class="nav-link" href="#">Beli Komik</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Merchandise</a>
+              <a class="nav-link" href="<?php echo base_url(); ?>marketplace">Merchandise</a>
             </li>
           </ul>
         </div>
