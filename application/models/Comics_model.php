@@ -11,7 +11,7 @@ class Comics_model extends CI_Model {
   }
 
   public function getAllComics() {
-    return 0;
+    return $this->db->get('comic_serial');
   }
 
   public function saveNewEpisode($comicId, $title, $epNum, $pages) {
@@ -25,8 +25,18 @@ class Comics_model extends CI_Model {
     return 1;
   }
 
-  public function saveNewSerial($title, $synopsis, $genre, $cover, $latestEpisode, $complete) {
-
+  public function saveNewSerial($data) {
+    $saveToDb = array(
+      'title' => $data['title'],
+      'synopsis' => $data['synopsis'],
+      'genre' => $data['genre'],
+      'mature' => $data['mature'],
+      'cover' => $data['cover'],
+      'latestEpisode' => $data['latestEpisode'],
+      'complete' => $data['complete']
+    );
+    $this->db->insert('comic_serial', $saveToDb);
+    return 1;
   }
 
   public function uploadCover($inputName) {

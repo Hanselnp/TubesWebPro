@@ -29,12 +29,17 @@ class Adminpage extends CI_Controller {
 
 	public function comics()
 	{
-		$this->load->view('admincomic');
+		$this->load->model('Comics_model');
+		$queryResult = $this->Comics_model->getAllComics();
+		$data = array (
+			'query' => $queryResult->result()
+		);
+		$this->load->view('admincomic', $data);
 	}
 
 	public function upload_comic()
 	{
-		$this->load->view('uploadcomic');
+		$this->load->view('uploadcomic', $data);
 	}
 
 	public function update_profile()
@@ -43,7 +48,7 @@ class Adminpage extends CI_Controller {
 	}
 
 	public function comics_detail($id) {
-		// $this->load->model('comics');
+		$this->load->model('Comics_model');
 		$comic = array(
 			'id' => $id,
 			'epNum' => "1"
