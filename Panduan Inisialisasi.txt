@@ -1,0 +1,2 @@
+1. Import file debugger.sql ke database dengan nama database `tubeswebpro`
+2. Login dengan menggunakan username : str125 dan password : 1234
