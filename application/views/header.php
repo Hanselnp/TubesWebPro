@@ -11,5 +11,5 @@
 	<link href="<?php echo base_url(); ?>resources/css/read.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>resources/css/marketplace.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo base_url() ?>resources/css/dropzone.css">
-	<link href="<?php echo base_url(); ?>resources/css/marketplace2.css" rel="stylesheet>">
+	<link href="<?php echo base_url(); ?>resources/css/marketplace2.css" rel="stylesheet">
 </head>
