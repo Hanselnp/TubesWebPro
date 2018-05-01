@@ -6,31 +6,13 @@
       <img src="<?php echo base_url(); ?>resources/images/samplephoto.jpg"></div>
       <ul class="remove-dot list unstyled components">
         <li class="active">
-          <a href="<?php echo base_url(); ?>adminpage"><i class="fas fa-home"></i> Beranda</a>
+          <a href="<?php echo base_url(); ?>adminpage"><span><i class="fas fa-home"></i></span> Beranda</a>
         </li>
         <li>
-          <a href="<?php echo base_url(); ?>adminpage/comics"><i class="fas fa-book"></i> Komik</a>
+          <a href="<?php echo base_url(); ?>adminpage/comics"><span><i class="fas fa-book"></i></span> Komik</a>
         </li>
         <li>
-          <!-- Link with dropdown items-->
-          <a data-toggle="collapse" href="#homesubmenu"><i class="fas fa-upload"></i> Unggah Komik</a>
-          <ul class="remove-dot collapse list-unstyled" id="HomeSubmenu">
-            <li>
-              <a href="#">Page</a>
-            </li>
-            <li>
-              <a href="#">Page</a>
-            </li>
-            <li>
-              <a href="#">Page</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#"><i class="fas fa-edit"></i> Update Profil</a>
-        </li>
-        <li>
-          <a href="#"><i class="fas fa-cog"></i> Pengaturan</a>
+          <a href="<?php echo base_url(); ?>adminpage/stats"><span><i class="fas fa-chart-bar"></i></span> Statistik</a>
         </li>
       </ul>
     </div>

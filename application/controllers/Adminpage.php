@@ -29,17 +29,35 @@ class Adminpage extends CI_Controller {
 
 	public function comics()
 	{
-		$this->load->view('admincomic');
+		$this->load->model('Comics_model');
+		$queryResult = $this->Comics_model->getAllComics();
+		$data = array (
+			'query' => $queryResult->result()
+		);
+		$this->load->view('admincomic', $data);
 	}
 
 	public function upload_comic()
 	{
-		$this->load->view('uploadcomic');
+		$this->load->view('uploadcomic', $data);
 	}
 
 	public function update_profile()
 	{
 		$this->load->view('updateprofile');
+	}
+
+	public function comics_detail($id) {
+		$this->load->model('Comics_model');
+		$comic = array(
+			'id' => $id,
+			'epNum' => "1"
+		);
+		$this->load->view('comics_detail', $comic);
+	}
+
+	public function stats() {
+		$this->load->view('stats');
 	}
 
 	public function settings()
@@ -50,6 +68,6 @@ class Adminpage extends CI_Controller {
 	public function logout()
 	{
 		$this->session->sess_destroy();
-		redirect(base_url().'login');
+		redirect($_SERVER['HTTP_REFERER']);
 	}
 }
